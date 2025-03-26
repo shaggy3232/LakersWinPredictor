@@ -8,12 +8,10 @@ from time import sleep
 LEAGUE_URL = "https://www.basketball-reference.com/leagues/NBA_{}.html"
 PLAYOFF_URL = "https://www.basketball-reference.com/playoffs/NBA_{}.html"
 
-# Headers to avoid being blocked
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
 }
 
-# Function to scrape a table by ID
 def scrape_table(soup, table_id, season, url_type="league"):
     try:
         # Check if table is in comments
@@ -23,65 +21,57 @@ def scrape_table(soup, table_id, season, url_type="league"):
             if table:
                 break
         else:
-            # If not in comments, look directly in the soup
             table = soup.find('table', id=table_id)
 
         if not table:
             print(f"Table with ID '{table_id}' not found for season {season} in {url_type} page")
             return None
 
-        # Special handling for 'all_playoffs' since it has no thead
+        # Special handling for 'all_playoffs'
         if table_id == "all_playoffs":
             headers = ["round", "matchup", "series_stats_link"]
         else:
-            # Extract headers for other tables
-            headers = []
-            thead = table.find('thead')
-            if thead:
-                for th in thead.find_all('th'):
-                    data_stat = th.get('data-stat')
-                    if data_stat and data_stat != 'ranker' and data_stat != 'DUMMY':
-                        headers.append(data_stat)
-            else:
-                print(f"No thead found in table '{table_id}' for season {season} in {url_type} page")
-                return None
+            headers = [th.get('data-stat') for th in table.find('thead').find_all('th') if th.get('data-stat') not in ['ranker', 'DUMMY']]
 
         # Extract rows
         rows = []
         tbody = table.find('tbody')
         if tbody:
-            for tr in tbody.find_all('tr', class_=lambda x: x != 'toggleable' and x != 'thead'):  # Skip toggleable and thead rows
+            for tr in tbody.find_all('tr'):
+                # Skip toggleable and thead rows
+                if 'toggleable' in tr.get('class', []) or 'thead' in tr.get('class', []):
+                    continue
                 row = []
-                for td in tr.find_all('td'):
-                    # For 'all_playoffs', handle each column
+                tds = tr.find_all('td')
+                if len(tds) >= 3:  # Ensure row has enough columns
                     if table_id == "all_playoffs":
-                        if td.find('span', class_='tooltip'):  # Round
-                            row.append(td.text.strip())
-                        elif td.find('a') and 'series' not in td.text.lower():  # Matchup
-                            row.append(td.text.strip())
-                        elif td.find('a') and 'series stats' in td.text.lower():  # Series Stats Link
-                            link = td.find('a')['href']
-                            row.append(link)
+                        # Round
+                        round_text = tds[0].text.strip()
+                        row.append(round_text)
+                        # Matchup
+                        matchup_text = tds[1].text.strip()
+                        row.append(matchup_text)
+                        # Series Stats Link
+                        series_link = tds[2].find('a')['href'] if tds[2].find('a') else ''
+                        row.append(series_link)
                     else:
-                        # For other tables
-                        if td.get('data-stat') == 'team':
-                            a_tag = td.find('a')
-                            text = a_tag.text if a_tag else td.text.strip()
-                            text = text.replace('*', '')
-                        else:
-                            text = td.text.strip()
-                        row.append(text)
-                if row:
-                    if len(row) < len(headers):
-                        row.extend([''] * (len(headers) - len(row)))
-                    elif len(row) > len(headers):
-                        row = row[:len(headers)]
-                    rows.append(row)
+                        for td in tds:
+                            if td.get('data-stat') == 'team':
+                                text = td.find('a').text if td.find('a') else td.text.strip()
+                                text = text.replace('*', '')
+                            else:
+                                text = td.text.strip()
+                            row.append(text)
+                    if row:
+                        if len(row) < len(headers):
+                            row.extend([''] * (len(headers) - len(row)))
+                        elif len(row) > len(headers):
+                            row = row[:len(headers)]
+                        rows.append(row)
         else:
             print(f"No tbody found in table '{table_id}' for season {season} in {url_type} page")
             return None
 
-        # Create DataFrame
         if rows and headers:
             df = pd.DataFrame(rows, columns=headers)
             return df
@@ -93,7 +83,7 @@ def scrape_table(soup, table_id, season, url_type="league"):
         print(f"Error scraping table '{table_id}' for season {season} in {url_type} page: {e}")
         return None
 
-# Create directories if they don’t exist
+# Create directories
 os.makedirs("nba_data/per_game_avg", exist_ok=True)
 os.makedirs("nba_data/playoff_series", exist_ok=True)
 os.makedirs("nba_data/advanced_stats", exist_ok=True)
@@ -105,14 +95,14 @@ for season in range(2000, 2025):
     playoff_url = PLAYOFF_URL.format(season)
     print(f"Scraping data for {season} season...")
 
-    # Fetch the league page
+    # Fetch league page
     league_response = requests.get(league_url, headers=HEADERS)
     if league_response.status_code != 200:
         print(f"Failed to fetch league page for {season}: Status code {league_response.status_code}")
         continue
     league_soup = BeautifulSoup(league_response.content, 'html.parser')
 
-    # Fetch the playoff page
+    # Fetch playoff page
     playoff_response = requests.get(playoff_url, headers=HEADERS)
     if playoff_response.status_code != 200:
         print(f"Failed to fetch playoff page for {season}: Status code {playoff_response.status_code}")
@@ -120,15 +110,11 @@ for season in range(2000, 2025):
     else:
         playoff_soup = BeautifulSoup(playoff_response.content, 'html.parser')
 
-    # Scrape tables from league page
+    # Scrape tables
     per_game_df = scrape_table(league_soup, "per_game-team", season, "league")
     advanced_stats_df = scrape_table(league_soup, "advanced-team", season, "league")
     per_poss_df = scrape_table(league_soup, "per_poss-team", season, "league")
-
-    # Scrape playoff series from playoff page only
-    playoff_series_df = None
-    if playoff_soup:
-        playoff_series_df = scrape_table(playoff_soup, "all_playoffs", season, "playoff")
+    playoff_series_df = scrape_table(playoff_soup, "all_playoffs", season, "playoff") if playoff_soup else None
 
     # Save to CSV
     if per_game_df is not None:
@@ -144,7 +130,6 @@ for season in range(2000, 2025):
         per_poss_df.to_csv(f"nba_data/per_poss_stats/{season}_per_poss_stats.csv", index=False)
         print(f"Saved Per 100 Poss Stats for {season}")
 
-    # Be polite and avoid overwhelming the server
     sleep(3)
 
 print("Scraping complete!")
