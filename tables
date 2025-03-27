@@ -1,0 +1,21 @@
+Per Poss:
+                 team
+0     Milwaukee Bucks
+1  Los Angeles Lakers
+2           Utah Jazz
+3    Dallas Mavericks
+4     Houston Rockets
+Advanced:
+   team  off_rtg  def_rtg
+0    19    0.175    0.541
+1    25    0.194    0.529
+2    27    0.135    0.546
+3    28    0.124    0.518
+4    29    0.165    0.539
+Playoff:
+                           round                                            matchup                                  series_stats_link
+0                         Finals  Los Angeles Lakers \nover \nPhiladelphia 76ers...     /playoffs/2001-nba-finals-76ers-vs-lakers.html
+1      Eastern Conference Finals  Philadelphia 76ers \nover \nMilwaukee Bucks\n ...  /playoffs/2001-nba-eastern-conference-finals-b...
+2      Western Conference Finals  Los Angeles Lakers \nover \nSan Antonio Spurs\...  /playoffs/2001-nba-western-conference-finals-l...
+3  Eastern Conference Semifinals  Milwaukee Bucks \nover \nCharlotte Hornets\n (...  /playoffs/2001-nba-eastern-conference-semifina...
+4  Eastern Conference Semifinals  Philadelphia 76ers \nover \nToronto Raptors\n ...  /playoffs/2001-nba-eastern-conference-semifina...
