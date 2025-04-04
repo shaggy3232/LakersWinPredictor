@@ -1,61 +1,16 @@
-round,matchup,series_stats_link
-Finals,"Los Angeles Lakers 
-over 
-Orlando Magic
- (4-1)",/playoffs/2009-nba-finals-magic-vs-lakers.html
-Eastern Conference Finals,"Orlando Magic 
-over 
-Cleveland Cavaliers
- (4-2)",/playoffs/2009-nba-eastern-conference-finals-magic-vs-cavaliers.html
-Western Conference Finals,"Los Angeles Lakers 
-over 
-Denver Nuggets
- (4-2)",/playoffs/2009-nba-western-conference-finals-nuggets-vs-lakers.html
-Eastern Conference Semifinals,"Cleveland Cavaliers 
-over 
-Atlanta Hawks
- (4-0)",/playoffs/2009-nba-eastern-conference-semifinals-hawks-vs-cavaliers.html
-Eastern Conference Semifinals,"Orlando Magic 
-over 
-Boston Celtics
- (4-3)",/playoffs/2009-nba-eastern-conference-semifinals-magic-vs-celtics.html
-Western Conference Semifinals,"Denver Nuggets 
-over 
-Dallas Mavericks
- (4-1)",/playoffs/2009-nba-western-conference-semifinals-mavericks-vs-nuggets.html
-Western Conference Semifinals,"Los Angeles Lakers 
-over 
-Houston Rockets
- (4-3)",/playoffs/2009-nba-western-conference-semifinals-rockets-vs-lakers.html
-Eastern Conference First Round,"Atlanta Hawks 
-over 
-Miami Heat
- (4-3)",/playoffs/2009-nba-eastern-conference-first-round-heat-vs-hawks.html
-Eastern Conference First Round,"Boston Celtics 
-over 
-Chicago Bulls
- (4-3)",/playoffs/2009-nba-eastern-conference-first-round-bulls-vs-celtics.html
-Eastern Conference First Round,"Cleveland Cavaliers 
-over 
-Detroit Pistons
- (4-0)",/playoffs/2009-nba-eastern-conference-first-round-pistons-vs-cavaliers.html
-Eastern Conference First Round,"Orlando Magic 
-over 
-Philadelphia 76ers
- (4-2)",/playoffs/2009-nba-eastern-conference-first-round-76ers-vs-magic.html
-Western Conference First Round,"Dallas Mavericks 
-over 
-San Antonio Spurs
- (4-1)",/playoffs/2009-nba-western-conference-first-round-mavericks-vs-spurs.html
-Western Conference First Round,"Denver Nuggets 
-over 
-New Orleans Hornets
- (4-1)",/playoffs/2009-nba-western-conference-first-round-hornets-vs-nuggets.html
-Western Conference First Round,"Houston Rockets 
-over 
-Portland Trail Blazers
- (4-2)",/playoffs/2009-nba-western-conference-first-round-rockets-vs-trail-blazers.html
-Western Conference First Round,"Los Angeles Lakers 
-over 
-Utah Jazz
- (4-1)",/playoffs/2009-nba-western-conference-first-round-jazz-vs-lakers.html
+round,matchup,series_stats_link,winner,loser,series_result
+Finals,Los Angeles Lakers over Orlando Magic (4-1),/playoffs/2009-nba-finals-magic-vs-lakers.html,Los Angeles Lakers,Orlando Magic,4-1
+Eastern Conference Finals,Orlando Magic over Cleveland Cavaliers (4-2),/playoffs/2009-nba-eastern-conference-finals-magic-vs-cavaliers.html,Orlando Magic,Cleveland Cavaliers,4-2
+Western Conference Finals,Los Angeles Lakers over Denver Nuggets (4-2),/playoffs/2009-nba-western-conference-finals-nuggets-vs-lakers.html,Los Angeles Lakers,Denver Nuggets,4-2
+Eastern Conference Semifinals,Cleveland Cavaliers over Atlanta Hawks (4-0),/playoffs/2009-nba-eastern-conference-semifinals-hawks-vs-cavaliers.html,Cleveland Cavaliers,Atlanta Hawks,4-0
+Eastern Conference Semifinals,Orlando Magic over Boston Celtics (4-3),/playoffs/2009-nba-eastern-conference-semifinals-magic-vs-celtics.html,Orlando Magic,Boston Celtics,4-3
+Western Conference Semifinals,Denver Nuggets over Dallas Mavericks (4-1),/playoffs/2009-nba-western-conference-semifinals-mavericks-vs-nuggets.html,Denver Nuggets,Dallas Mavericks,4-1
+Western Conference Semifinals,Los Angeles Lakers over Houston Rockets (4-3),/playoffs/2009-nba-western-conference-semifinals-rockets-vs-lakers.html,Los Angeles Lakers,Houston Rockets,4-3
+Eastern Conference First Round,Atlanta Hawks over Miami Heat (4-3),/playoffs/2009-nba-eastern-conference-first-round-heat-vs-hawks.html,Atlanta Hawks,Miami Heat,4-3
+Eastern Conference First Round,Boston Celtics over Chicago Bulls (4-3),/playoffs/2009-nba-eastern-conference-first-round-bulls-vs-celtics.html,Boston Celtics,Chicago Bulls,4-3
+Eastern Conference First Round,Cleveland Cavaliers over Detroit Pistons (4-0),/playoffs/2009-nba-eastern-conference-first-round-pistons-vs-cavaliers.html,Cleveland Cavaliers,Detroit Pistons,4-0
+Eastern Conference First Round,Orlando Magic over Philadelphia 76ers (4-2),/playoffs/2009-nba-eastern-conference-first-round-76ers-vs-magic.html,Orlando Magic,Philadelphia 76ers,4-2
+Western Conference First Round,Dallas Mavericks over San Antonio Spurs (4-1),/playoffs/2009-nba-western-conference-first-round-mavericks-vs-spurs.html,Dallas Mavericks,San Antonio Spurs,4-1
+Western Conference First Round,Denver Nuggets over New Orleans Hornets (4-1),/playoffs/2009-nba-western-conference-first-round-hornets-vs-nuggets.html,Denver Nuggets,New Orleans Hornets,4-1
+Western Conference First Round,Houston Rockets over Portland Trail Blazers (4-2),/playoffs/2009-nba-western-conference-first-round-rockets-vs-trail-blazers.html,Houston Rockets,Portland Trail Blazers,4-2
+Western Conference First Round,Los Angeles Lakers over Utah Jazz (4-1),/playoffs/2009-nba-western-conference-first-round-jazz-vs-lakers.html,Los Angeles Lakers,Utah Jazz,4-1

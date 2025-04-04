@@ -1,61 +1,16 @@
-round,matchup,series_stats_link
-Finals,"Detroit Pistons 
-over 
-Los Angeles Lakers
- (4-1)",/playoffs/2004-nba-finals-pistons-vs-lakers.html
-Eastern Conference Finals,"Detroit Pistons 
-over 
-Indiana Pacers
- (4-2)",/playoffs/2004-nba-eastern-conference-finals-pistons-vs-pacers.html
-Western Conference Finals,"Los Angeles Lakers 
-over 
-Minnesota Timberwolves
- (4-2)",/playoffs/2004-nba-western-conference-finals-lakers-vs-timberwolves.html
-Eastern Conference Semifinals,"Detroit Pistons 
-over 
-New Jersey Nets
- (4-3)",/playoffs/2004-nba-eastern-conference-semifinals-nets-vs-pistons.html
-Eastern Conference Semifinals,"Indiana Pacers 
-over 
-Miami Heat
- (4-2)",/playoffs/2004-nba-eastern-conference-semifinals-heat-vs-pacers.html
-Western Conference Semifinals,"Los Angeles Lakers 
-over 
-San Antonio Spurs
- (4-2)",/playoffs/2004-nba-western-conference-semifinals-lakers-vs-spurs.html
-Western Conference Semifinals,"Minnesota Timberwolves 
-over 
-Sacramento Kings
- (4-3)",/playoffs/2004-nba-western-conference-semifinals-kings-vs-timberwolves.html
-Eastern Conference First Round,"Detroit Pistons 
-over 
-Milwaukee Bucks
- (4-1)",/playoffs/2004-nba-eastern-conference-first-round-bucks-vs-pistons.html
-Eastern Conference First Round,"Indiana Pacers 
-over 
-Boston Celtics
- (4-0)",/playoffs/2004-nba-eastern-conference-first-round-celtics-vs-pacers.html
-Eastern Conference First Round,"Miami Heat 
-over 
-New Orleans Hornets
- (4-3)",/playoffs/2004-nba-eastern-conference-first-round-hornets-vs-heat.html
-Eastern Conference First Round,"New Jersey Nets 
-over 
-New York Knicks
- (4-0)",/playoffs/2004-nba-eastern-conference-first-round-knicks-vs-nets.html
-Western Conference First Round,"Los Angeles Lakers 
-over 
-Houston Rockets
- (4-1)",/playoffs/2004-nba-western-conference-first-round-rockets-vs-lakers.html
-Western Conference First Round,"Minnesota Timberwolves 
-over 
-Denver Nuggets
- (4-1)",/playoffs/2004-nba-western-conference-first-round-nuggets-vs-timberwolves.html
-Western Conference First Round,"Sacramento Kings 
-over 
-Dallas Mavericks
- (4-1)",/playoffs/2004-nba-western-conference-first-round-mavericks-vs-kings.html
-Western Conference First Round,"San Antonio Spurs 
-over 
-Memphis Grizzlies
- (4-0)",/playoffs/2004-nba-western-conference-first-round-grizzlies-vs-spurs.html
+round,matchup,series_stats_link,winner,loser,series_result
+Finals,Detroit Pistons over Los Angeles Lakers (4-1),/playoffs/2004-nba-finals-pistons-vs-lakers.html,Detroit Pistons,Los Angeles Lakers,4-1
+Eastern Conference Finals,Detroit Pistons over Indiana Pacers (4-2),/playoffs/2004-nba-eastern-conference-finals-pistons-vs-pacers.html,Detroit Pistons,Indiana Pacers,4-2
+Western Conference Finals,Los Angeles Lakers over Minnesota Timberwolves (4-2),/playoffs/2004-nba-western-conference-finals-lakers-vs-timberwolves.html,Los Angeles Lakers,Minnesota Timberwolves,4-2
+Eastern Conference Semifinals,Detroit Pistons over New Jersey Nets (4-3),/playoffs/2004-nba-eastern-conference-semifinals-nets-vs-pistons.html,Detroit Pistons,New Jersey Nets,4-3
+Eastern Conference Semifinals,Indiana Pacers over Miami Heat (4-2),/playoffs/2004-nba-eastern-conference-semifinals-heat-vs-pacers.html,Indiana Pacers,Miami Heat,4-2
+Western Conference Semifinals,Los Angeles Lakers over San Antonio Spurs (4-2),/playoffs/2004-nba-western-conference-semifinals-lakers-vs-spurs.html,Los Angeles Lakers,San Antonio Spurs,4-2
+Western Conference Semifinals,Minnesota Timberwolves over Sacramento Kings (4-3),/playoffs/2004-nba-western-conference-semifinals-kings-vs-timberwolves.html,Minnesota Timberwolves,Sacramento Kings,4-3
+Eastern Conference First Round,Detroit Pistons over Milwaukee Bucks (4-1),/playoffs/2004-nba-eastern-conference-first-round-bucks-vs-pistons.html,Detroit Pistons,Milwaukee Bucks,4-1
+Eastern Conference First Round,Indiana Pacers over Boston Celtics (4-0),/playoffs/2004-nba-eastern-conference-first-round-celtics-vs-pacers.html,Indiana Pacers,Boston Celtics,4-0
+Eastern Conference First Round,Miami Heat over New Orleans Hornets (4-3),/playoffs/2004-nba-eastern-conference-first-round-hornets-vs-heat.html,Miami Heat,New Orleans Hornets,4-3
+Eastern Conference First Round,New Jersey Nets over New York Knicks (4-0),/playoffs/2004-nba-eastern-conference-first-round-knicks-vs-nets.html,New Jersey Nets,New York Knicks,4-0
+Western Conference First Round,Los Angeles Lakers over Houston Rockets (4-1),/playoffs/2004-nba-western-conference-first-round-rockets-vs-lakers.html,Los Angeles Lakers,Houston Rockets,4-1
+Western Conference First Round,Minnesota Timberwolves over Denver Nuggets (4-1),/playoffs/2004-nba-western-conference-first-round-nuggets-vs-timberwolves.html,Minnesota Timberwolves,Denver Nuggets,4-1
+Western Conference First Round,Sacramento Kings over Dallas Mavericks (4-1),/playoffs/2004-nba-western-conference-first-round-mavericks-vs-kings.html,Sacramento Kings,Dallas Mavericks,4-1
+Western Conference First Round,San Antonio Spurs over Memphis Grizzlies (4-0),/playoffs/2004-nba-western-conference-first-round-grizzlies-vs-spurs.html,San Antonio Spurs,Memphis Grizzlies,4-0

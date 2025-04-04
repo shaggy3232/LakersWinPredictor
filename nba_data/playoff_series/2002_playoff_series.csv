@@ -1,61 +1,16 @@
-round,matchup,series_stats_link
-Finals,"Los Angeles Lakers 
-over 
-New Jersey Nets
- (4-0)",/playoffs/2002-nba-finals-nets-vs-lakers.html
-Eastern Conference Finals,"New Jersey Nets 
-over 
-Boston Celtics
- (4-2)",/playoffs/2002-nba-eastern-conference-finals-celtics-vs-nets.html
-Western Conference Finals,"Los Angeles Lakers 
-over 
-Sacramento Kings
- (4-3)",/playoffs/2002-nba-western-conference-finals-lakers-vs-kings.html
-Eastern Conference Semifinals,"Boston Celtics 
-over 
-Detroit Pistons
- (4-1)",/playoffs/2002-nba-eastern-conference-semifinals-celtics-vs-pistons.html
-Eastern Conference Semifinals,"New Jersey Nets 
-over 
-Charlotte Hornets
- (4-1)",/playoffs/2002-nba-eastern-conference-semifinals-hornets-vs-nets.html
-Western Conference Semifinals,"Los Angeles Lakers 
-over 
-San Antonio Spurs
- (4-1)",/playoffs/2002-nba-western-conference-semifinals-spurs-vs-lakers.html
-Western Conference Semifinals,"Sacramento Kings 
-over 
-Dallas Mavericks
- (4-1)",/playoffs/2002-nba-western-conference-semifinals-mavericks-vs-kings.html
-Eastern Conference First Round,"Boston Celtics 
-over 
-Philadelphia 76ers
- (3-2)",/playoffs/2002-nba-eastern-conference-first-round-76ers-vs-celtics.html
-Eastern Conference First Round,"Charlotte Hornets 
-over 
-Orlando Magic
- (3-1)",/playoffs/2002-nba-eastern-conference-first-round-magic-vs-hornets.html
-Eastern Conference First Round,"Detroit Pistons 
-over 
-Toronto Raptors
- (3-2)",/playoffs/2002-nba-eastern-conference-first-round-raptors-vs-pistons.html
-Eastern Conference First Round,"New Jersey Nets 
-over 
-Indiana Pacers
- (3-2)",/playoffs/2002-nba-eastern-conference-first-round-pacers-vs-nets.html
-Western Conference First Round,"Dallas Mavericks 
-over 
-Minnesota Timberwolves
- (3-0)",/playoffs/2002-nba-western-conference-first-round-timberwolves-vs-mavericks.html
-Western Conference First Round,"Los Angeles Lakers 
-over 
-Portland Trail Blazers
- (3-0)",/playoffs/2002-nba-western-conference-first-round-trail-blazers-vs-lakers.html
-Western Conference First Round,"Sacramento Kings 
-over 
-Utah Jazz
- (3-1)",/playoffs/2002-nba-western-conference-first-round-jazz-vs-kings.html
-Western Conference First Round,"San Antonio Spurs 
-over 
-Seattle SuperSonics
- (3-2)",/playoffs/2002-nba-western-conference-first-round-supersonics-vs-spurs.html
+round,matchup,series_stats_link,winner,loser,series_result
+Finals,Los Angeles Lakers over New Jersey Nets (4-0),/playoffs/2002-nba-finals-nets-vs-lakers.html,Los Angeles Lakers,New Jersey Nets,4-0
+Eastern Conference Finals,New Jersey Nets over Boston Celtics (4-2),/playoffs/2002-nba-eastern-conference-finals-celtics-vs-nets.html,New Jersey Nets,Boston Celtics,4-2
+Western Conference Finals,Los Angeles Lakers over Sacramento Kings (4-3),/playoffs/2002-nba-western-conference-finals-lakers-vs-kings.html,Los Angeles Lakers,Sacramento Kings,4-3
+Eastern Conference Semifinals,Boston Celtics over Detroit Pistons (4-1),/playoffs/2002-nba-eastern-conference-semifinals-celtics-vs-pistons.html,Boston Celtics,Detroit Pistons,4-1
+Eastern Conference Semifinals,New Jersey Nets over Charlotte Hornets (4-1),/playoffs/2002-nba-eastern-conference-semifinals-hornets-vs-nets.html,New Jersey Nets,Charlotte Hornets,4-1
+Western Conference Semifinals,Los Angeles Lakers over San Antonio Spurs (4-1),/playoffs/2002-nba-western-conference-semifinals-spurs-vs-lakers.html,Los Angeles Lakers,San Antonio Spurs,4-1
+Western Conference Semifinals,Sacramento Kings over Dallas Mavericks (4-1),/playoffs/2002-nba-western-conference-semifinals-mavericks-vs-kings.html,Sacramento Kings,Dallas Mavericks,4-1
+Eastern Conference First Round,Boston Celtics over Philadelphia 76ers (3-2),/playoffs/2002-nba-eastern-conference-first-round-76ers-vs-celtics.html,Boston Celtics,Philadelphia 76ers,3-2
+Eastern Conference First Round,Charlotte Hornets over Orlando Magic (3-1),/playoffs/2002-nba-eastern-conference-first-round-magic-vs-hornets.html,Charlotte Hornets,Orlando Magic,3-1
+Eastern Conference First Round,Detroit Pistons over Toronto Raptors (3-2),/playoffs/2002-nba-eastern-conference-first-round-raptors-vs-pistons.html,Detroit Pistons,Toronto Raptors,3-2
+Eastern Conference First Round,New Jersey Nets over Indiana Pacers (3-2),/playoffs/2002-nba-eastern-conference-first-round-pacers-vs-nets.html,New Jersey Nets,Indiana Pacers,3-2
+Western Conference First Round,Dallas Mavericks over Minnesota Timberwolves (3-0),/playoffs/2002-nba-western-conference-first-round-timberwolves-vs-mavericks.html,Dallas Mavericks,Minnesota Timberwolves,3-0
+Western Conference First Round,Los Angeles Lakers over Portland Trail Blazers (3-0),/playoffs/2002-nba-western-conference-first-round-trail-blazers-vs-lakers.html,Los Angeles Lakers,Portland Trail Blazers,3-0
+Western Conference First Round,Sacramento Kings over Utah Jazz (3-1),/playoffs/2002-nba-western-conference-first-round-jazz-vs-kings.html,Sacramento Kings,Utah Jazz,3-1
+Western Conference First Round,San Antonio Spurs over Seattle SuperSonics (3-2),/playoffs/2002-nba-western-conference-first-round-supersonics-vs-spurs.html,San Antonio Spurs,Seattle SuperSonics,3-2

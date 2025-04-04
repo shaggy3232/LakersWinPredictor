@@ -1,61 +1,16 @@
-round,matchup,series_stats_link
-Finals,"Toronto Raptors 
-over 
-Golden State Warriors
- (4-2)",/playoffs/2019-nba-finals-warriors-vs-raptors.html
-Eastern Conference Finals,"Toronto Raptors 
-over 
-Milwaukee Bucks
- (4-2)",/playoffs/2019-nba-eastern-conference-finals-raptors-vs-bucks.html
-Western Conference Finals,"Golden State Warriors 
-over 
-Portland Trail Blazers
- (4-0)",/playoffs/2019-nba-western-conference-finals-trail-blazers-vs-warriors.html
-Eastern Conference Semifinals,"Milwaukee Bucks 
-over 
-Boston Celtics
- (4-1)",/playoffs/2019-nba-eastern-conference-semifinals-celtics-vs-bucks.html
-Eastern Conference Semifinals,"Toronto Raptors 
-over 
-Philadelphia 76ers
- (4-3)",/playoffs/2019-nba-eastern-conference-semifinals-76ers-vs-raptors.html
-Western Conference Semifinals,"Golden State Warriors 
-over 
-Houston Rockets
- (4-2)",/playoffs/2019-nba-western-conference-semifinals-rockets-vs-warriors.html
-Western Conference Semifinals,"Portland Trail Blazers 
-over 
-Denver Nuggets
- (4-3)",/playoffs/2019-nba-western-conference-semifinals-trail-blazers-vs-nuggets.html
-Eastern Conference First Round,"Boston Celtics 
-over 
-Indiana Pacers
- (4-0)",/playoffs/2019-nba-eastern-conference-first-round-pacers-vs-celtics.html
-Eastern Conference First Round,"Milwaukee Bucks 
-over 
-Detroit Pistons
- (4-0)",/playoffs/2019-nba-eastern-conference-first-round-pistons-vs-bucks.html
-Eastern Conference First Round,"Philadelphia 76ers 
-over 
-Brooklyn Nets
- (4-1)",/playoffs/2019-nba-eastern-conference-first-round-nets-vs-76ers.html
-Eastern Conference First Round,"Toronto Raptors 
-over 
-Orlando Magic
- (4-1)",/playoffs/2019-nba-eastern-conference-first-round-magic-vs-raptors.html
-Western Conference First Round,"Denver Nuggets 
-over 
-San Antonio Spurs
- (4-3)",/playoffs/2019-nba-western-conference-first-round-spurs-vs-nuggets.html
-Western Conference First Round,"Golden State Warriors 
-over 
-Los Angeles Clippers
- (4-2)",/playoffs/2019-nba-western-conference-first-round-clippers-vs-warriors.html
-Western Conference First Round,"Houston Rockets 
-over 
-Utah Jazz
- (4-1)",/playoffs/2019-nba-western-conference-first-round-jazz-vs-rockets.html
-Western Conference First Round,"Portland Trail Blazers 
-over 
-Oklahoma City Thunder
- (4-1)",/playoffs/2019-nba-western-conference-first-round-thunder-vs-trail-blazers.html
+round,matchup,series_stats_link,winner,loser,series_result
+Finals,Toronto Raptors over Golden State Warriors (4-2),/playoffs/2019-nba-finals-warriors-vs-raptors.html,Toronto Raptors,Golden State Warriors,4-2
+Eastern Conference Finals,Toronto Raptors over Milwaukee Bucks (4-2),/playoffs/2019-nba-eastern-conference-finals-raptors-vs-bucks.html,Toronto Raptors,Milwaukee Bucks,4-2
+Western Conference Finals,Golden State Warriors over Portland Trail Blazers (4-0),/playoffs/2019-nba-western-conference-finals-trail-blazers-vs-warriors.html,Golden State Warriors,Portland Trail Blazers,4-0
+Eastern Conference Semifinals,Milwaukee Bucks over Boston Celtics (4-1),/playoffs/2019-nba-eastern-conference-semifinals-celtics-vs-bucks.html,Milwaukee Bucks,Boston Celtics,4-1
+Eastern Conference Semifinals,Toronto Raptors over Philadelphia 76ers (4-3),/playoffs/2019-nba-eastern-conference-semifinals-76ers-vs-raptors.html,Toronto Raptors,Philadelphia 76ers,4-3
+Western Conference Semifinals,Golden State Warriors over Houston Rockets (4-2),/playoffs/2019-nba-western-conference-semifinals-rockets-vs-warriors.html,Golden State Warriors,Houston Rockets,4-2
+Western Conference Semifinals,Portland Trail Blazers over Denver Nuggets (4-3),/playoffs/2019-nba-western-conference-semifinals-trail-blazers-vs-nuggets.html,Portland Trail Blazers,Denver Nuggets,4-3
+Eastern Conference First Round,Boston Celtics over Indiana Pacers (4-0),/playoffs/2019-nba-eastern-conference-first-round-pacers-vs-celtics.html,Boston Celtics,Indiana Pacers,4-0
+Eastern Conference First Round,Milwaukee Bucks over Detroit Pistons (4-0),/playoffs/2019-nba-eastern-conference-first-round-pistons-vs-bucks.html,Milwaukee Bucks,Detroit Pistons,4-0
+Eastern Conference First Round,Philadelphia 76ers over Brooklyn Nets (4-1),/playoffs/2019-nba-eastern-conference-first-round-nets-vs-76ers.html,Philadelphia 76ers,Brooklyn Nets,4-1
+Eastern Conference First Round,Toronto Raptors over Orlando Magic (4-1),/playoffs/2019-nba-eastern-conference-first-round-magic-vs-raptors.html,Toronto Raptors,Orlando Magic,4-1
+Western Conference First Round,Denver Nuggets over San Antonio Spurs (4-3),/playoffs/2019-nba-western-conference-first-round-spurs-vs-nuggets.html,Denver Nuggets,San Antonio Spurs,4-3
+Western Conference First Round,Golden State Warriors over Los Angeles Clippers (4-2),/playoffs/2019-nba-western-conference-first-round-clippers-vs-warriors.html,Golden State Warriors,Los Angeles Clippers,4-2
+Western Conference First Round,Houston Rockets over Utah Jazz (4-1),/playoffs/2019-nba-western-conference-first-round-jazz-vs-rockets.html,Houston Rockets,Utah Jazz,4-1
+Western Conference First Round,Portland Trail Blazers over Oklahoma City Thunder (4-1),/playoffs/2019-nba-western-conference-first-round-thunder-vs-trail-blazers.html,Portland Trail Blazers,Oklahoma City Thunder,4-1

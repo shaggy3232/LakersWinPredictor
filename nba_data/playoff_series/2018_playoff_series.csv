@@ -1,61 +1,16 @@
-round,matchup,series_stats_link
-Finals,"Golden State Warriors 
-over 
-Cleveland Cavaliers
- (4-0)",/playoffs/2018-nba-finals-cavaliers-vs-warriors.html
-Eastern Conference Finals,"Cleveland Cavaliers 
-over 
-Boston Celtics
- (4-3)",/playoffs/2018-nba-eastern-conference-finals-cavaliers-vs-celtics.html
-Western Conference Finals,"Golden State Warriors 
-over 
-Houston Rockets
- (4-3)",/playoffs/2018-nba-western-conference-finals-warriors-vs-rockets.html
-Eastern Conference Semifinals,"Boston Celtics 
-over 
-Philadelphia 76ers
- (4-1)",/playoffs/2018-nba-eastern-conference-semifinals-76ers-vs-celtics.html
-Eastern Conference Semifinals,"Cleveland Cavaliers 
-over 
-Toronto Raptors
- (4-0)",/playoffs/2018-nba-eastern-conference-semifinals-cavaliers-vs-raptors.html
-Western Conference Semifinals,"Golden State Warriors 
-over 
-New Orleans Pelicans
- (4-1)",/playoffs/2018-nba-western-conference-semifinals-pelicans-vs-warriors.html
-Western Conference Semifinals,"Houston Rockets 
-over 
-Utah Jazz
- (4-1)",/playoffs/2018-nba-western-conference-semifinals-jazz-vs-rockets.html
-Eastern Conference First Round,"Boston Celtics 
-over 
-Milwaukee Bucks
- (4-3)",/playoffs/2018-nba-eastern-conference-first-round-bucks-vs-celtics.html
-Eastern Conference First Round,"Cleveland Cavaliers 
-over 
-Indiana Pacers
- (4-3)",/playoffs/2018-nba-eastern-conference-first-round-pacers-vs-cavaliers.html
-Eastern Conference First Round,"Philadelphia 76ers 
-over 
-Miami Heat
- (4-1)",/playoffs/2018-nba-eastern-conference-first-round-heat-vs-76ers.html
-Eastern Conference First Round,"Toronto Raptors 
-over 
-Washington Wizards
- (4-2)",/playoffs/2018-nba-eastern-conference-first-round-wizards-vs-raptors.html
-Western Conference First Round,"Golden State Warriors 
-over 
-San Antonio Spurs
- (4-1)",/playoffs/2018-nba-western-conference-first-round-spurs-vs-warriors.html
-Western Conference First Round,"Houston Rockets 
-over 
-Minnesota Timberwolves
- (4-1)",/playoffs/2018-nba-western-conference-first-round-timberwolves-vs-rockets.html
-Western Conference First Round,"New Orleans Pelicans 
-over 
-Portland Trail Blazers
- (4-0)",/playoffs/2018-nba-western-conference-first-round-pelicans-vs-trail-blazers.html
-Western Conference First Round,"Utah Jazz 
-over 
-Oklahoma City Thunder
- (4-2)",/playoffs/2018-nba-western-conference-first-round-jazz-vs-thunder.html
+round,matchup,series_stats_link,winner,loser,series_result
+Finals,Golden State Warriors over Cleveland Cavaliers (4-0),/playoffs/2018-nba-finals-cavaliers-vs-warriors.html,Golden State Warriors,Cleveland Cavaliers,4-0
+Eastern Conference Finals,Cleveland Cavaliers over Boston Celtics (4-3),/playoffs/2018-nba-eastern-conference-finals-cavaliers-vs-celtics.html,Cleveland Cavaliers,Boston Celtics,4-3
+Western Conference Finals,Golden State Warriors over Houston Rockets (4-3),/playoffs/2018-nba-western-conference-finals-warriors-vs-rockets.html,Golden State Warriors,Houston Rockets,4-3
+Eastern Conference Semifinals,Boston Celtics over Philadelphia 76ers (4-1),/playoffs/2018-nba-eastern-conference-semifinals-76ers-vs-celtics.html,Boston Celtics,Philadelphia 76ers,4-1
+Eastern Conference Semifinals,Cleveland Cavaliers over Toronto Raptors (4-0),/playoffs/2018-nba-eastern-conference-semifinals-cavaliers-vs-raptors.html,Cleveland Cavaliers,Toronto Raptors,4-0
+Western Conference Semifinals,Golden State Warriors over New Orleans Pelicans (4-1),/playoffs/2018-nba-western-conference-semifinals-pelicans-vs-warriors.html,Golden State Warriors,New Orleans Pelicans,4-1
+Western Conference Semifinals,Houston Rockets over Utah Jazz (4-1),/playoffs/2018-nba-western-conference-semifinals-jazz-vs-rockets.html,Houston Rockets,Utah Jazz,4-1
+Eastern Conference First Round,Boston Celtics over Milwaukee Bucks (4-3),/playoffs/2018-nba-eastern-conference-first-round-bucks-vs-celtics.html,Boston Celtics,Milwaukee Bucks,4-3
+Eastern Conference First Round,Cleveland Cavaliers over Indiana Pacers (4-3),/playoffs/2018-nba-eastern-conference-first-round-pacers-vs-cavaliers.html,Cleveland Cavaliers,Indiana Pacers,4-3
+Eastern Conference First Round,Philadelphia 76ers over Miami Heat (4-1),/playoffs/2018-nba-eastern-conference-first-round-heat-vs-76ers.html,Philadelphia 76ers,Miami Heat,4-1
+Eastern Conference First Round,Toronto Raptors over Washington Wizards (4-2),/playoffs/2018-nba-eastern-conference-first-round-wizards-vs-raptors.html,Toronto Raptors,Washington Wizards,4-2
+Western Conference First Round,Golden State Warriors over San Antonio Spurs (4-1),/playoffs/2018-nba-western-conference-first-round-spurs-vs-warriors.html,Golden State Warriors,San Antonio Spurs,4-1
+Western Conference First Round,Houston Rockets over Minnesota Timberwolves (4-1),/playoffs/2018-nba-western-conference-first-round-timberwolves-vs-rockets.html,Houston Rockets,Minnesota Timberwolves,4-1
+Western Conference First Round,New Orleans Pelicans over Portland Trail Blazers (4-0),/playoffs/2018-nba-western-conference-first-round-pelicans-vs-trail-blazers.html,New Orleans Pelicans,Portland Trail Blazers,4-0
+Western Conference First Round,Utah Jazz over Oklahoma City Thunder (4-2),/playoffs/2018-nba-western-conference-first-round-jazz-vs-thunder.html,Utah Jazz,Oklahoma City Thunder,4-2

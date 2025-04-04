@@ -1,61 +1,16 @@
-round,matchup,series_stats_link
-Finals,"San Antonio Spurs 
-over 
-Detroit Pistons
- (4-3)",/playoffs/2005-nba-finals-pistons-vs-spurs.html
-Eastern Conference Finals,"Detroit Pistons 
-over 
-Miami Heat
- (4-3)",/playoffs/2005-nba-eastern-conference-finals-pistons-vs-heat.html
-Western Conference Finals,"San Antonio Spurs 
-over 
-Phoenix Suns
- (4-1)",/playoffs/2005-nba-western-conference-finals-spurs-vs-suns.html
-Eastern Conference Semifinals,"Detroit Pistons 
-over 
-Indiana Pacers
- (4-2)",/playoffs/2005-nba-eastern-conference-semifinals-pacers-vs-pistons.html
-Eastern Conference Semifinals,"Miami Heat 
-over 
-Washington Wizards
- (4-0)",/playoffs/2005-nba-eastern-conference-semifinals-wizards-vs-heat.html
-Western Conference Semifinals,"Phoenix Suns 
-over 
-Dallas Mavericks
- (4-2)",/playoffs/2005-nba-western-conference-semifinals-mavericks-vs-suns.html
-Western Conference Semifinals,"San Antonio Spurs 
-over 
-Seattle SuperSonics
- (4-2)",/playoffs/2005-nba-western-conference-semifinals-supersonics-vs-spurs.html
-Eastern Conference First Round,"Detroit Pistons 
-over 
-Philadelphia 76ers
- (4-1)",/playoffs/2005-nba-eastern-conference-first-round-76ers-vs-pistons.html
-Eastern Conference First Round,"Indiana Pacers 
-over 
-Boston Celtics
- (4-3)",/playoffs/2005-nba-eastern-conference-first-round-pacers-vs-celtics.html
-Eastern Conference First Round,"Miami Heat 
-over 
-New Jersey Nets
- (4-0)",/playoffs/2005-nba-eastern-conference-first-round-nets-vs-heat.html
-Eastern Conference First Round,"Washington Wizards 
-over 
-Chicago Bulls
- (4-2)",/playoffs/2005-nba-eastern-conference-first-round-wizards-vs-bulls.html
-Western Conference First Round,"Dallas Mavericks 
-over 
-Houston Rockets
- (4-3)",/playoffs/2005-nba-western-conference-first-round-rockets-vs-mavericks.html
-Western Conference First Round,"Phoenix Suns 
-over 
-Memphis Grizzlies
- (4-0)",/playoffs/2005-nba-western-conference-first-round-grizzlies-vs-suns.html
-Western Conference First Round,"San Antonio Spurs 
-over 
-Denver Nuggets
- (4-1)",/playoffs/2005-nba-western-conference-first-round-nuggets-vs-spurs.html
-Western Conference First Round,"Seattle SuperSonics 
-over 
-Sacramento Kings
- (4-1)",/playoffs/2005-nba-western-conference-first-round-kings-vs-supersonics.html
+round,matchup,series_stats_link,winner,loser,series_result
+Finals,San Antonio Spurs over Detroit Pistons (4-3),/playoffs/2005-nba-finals-pistons-vs-spurs.html,San Antonio Spurs,Detroit Pistons,4-3
+Eastern Conference Finals,Detroit Pistons over Miami Heat (4-3),/playoffs/2005-nba-eastern-conference-finals-pistons-vs-heat.html,Detroit Pistons,Miami Heat,4-3
+Western Conference Finals,San Antonio Spurs over Phoenix Suns (4-1),/playoffs/2005-nba-western-conference-finals-spurs-vs-suns.html,San Antonio Spurs,Phoenix Suns,4-1
+Eastern Conference Semifinals,Detroit Pistons over Indiana Pacers (4-2),/playoffs/2005-nba-eastern-conference-semifinals-pacers-vs-pistons.html,Detroit Pistons,Indiana Pacers,4-2
+Eastern Conference Semifinals,Miami Heat over Washington Wizards (4-0),/playoffs/2005-nba-eastern-conference-semifinals-wizards-vs-heat.html,Miami Heat,Washington Wizards,4-0
+Western Conference Semifinals,Phoenix Suns over Dallas Mavericks (4-2),/playoffs/2005-nba-western-conference-semifinals-mavericks-vs-suns.html,Phoenix Suns,Dallas Mavericks,4-2
+Western Conference Semifinals,San Antonio Spurs over Seattle SuperSonics (4-2),/playoffs/2005-nba-western-conference-semifinals-supersonics-vs-spurs.html,San Antonio Spurs,Seattle SuperSonics,4-2
+Eastern Conference First Round,Detroit Pistons over Philadelphia 76ers (4-1),/playoffs/2005-nba-eastern-conference-first-round-76ers-vs-pistons.html,Detroit Pistons,Philadelphia 76ers,4-1
+Eastern Conference First Round,Indiana Pacers over Boston Celtics (4-3),/playoffs/2005-nba-eastern-conference-first-round-pacers-vs-celtics.html,Indiana Pacers,Boston Celtics,4-3
+Eastern Conference First Round,Miami Heat over New Jersey Nets (4-0),/playoffs/2005-nba-eastern-conference-first-round-nets-vs-heat.html,Miami Heat,New Jersey Nets,4-0
+Eastern Conference First Round,Washington Wizards over Chicago Bulls (4-2),/playoffs/2005-nba-eastern-conference-first-round-wizards-vs-bulls.html,Washington Wizards,Chicago Bulls,4-2
+Western Conference First Round,Dallas Mavericks over Houston Rockets (4-3),/playoffs/2005-nba-western-conference-first-round-rockets-vs-mavericks.html,Dallas Mavericks,Houston Rockets,4-3
+Western Conference First Round,Phoenix Suns over Memphis Grizzlies (4-0),/playoffs/2005-nba-western-conference-first-round-grizzlies-vs-suns.html,Phoenix Suns,Memphis Grizzlies,4-0
+Western Conference First Round,San Antonio Spurs over Denver Nuggets (4-1),/playoffs/2005-nba-western-conference-first-round-nuggets-vs-spurs.html,San Antonio Spurs,Denver Nuggets,4-1
+Western Conference First Round,Seattle SuperSonics over Sacramento Kings (4-1),/playoffs/2005-nba-western-conference-first-round-kings-vs-supersonics.html,Seattle SuperSonics,Sacramento Kings,4-1

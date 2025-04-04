@@ -1,61 +1,16 @@
-round,matchup,series_stats_link
-Finals,"San Antonio Spurs 
-over 
-Miami Heat
- (4-1)",/playoffs/2014-nba-finals-heat-vs-spurs.html
-Eastern Conference Finals,"Miami Heat 
-over 
-Indiana Pacers
- (4-2)",/playoffs/2014-nba-eastern-conference-finals-heat-vs-pacers.html
-Western Conference Finals,"San Antonio Spurs 
-over 
-Oklahoma City Thunder
- (4-2)",/playoffs/2014-nba-western-conference-finals-thunder-vs-spurs.html
-Eastern Conference Semifinals,"Indiana Pacers 
-over 
-Washington Wizards
- (4-2)",/playoffs/2014-nba-eastern-conference-semifinals-wizards-vs-pacers.html
-Eastern Conference Semifinals,"Miami Heat 
-over 
-Brooklyn Nets
- (4-1)",/playoffs/2014-nba-eastern-conference-semifinals-nets-vs-heat.html
-Western Conference Semifinals,"Oklahoma City Thunder 
-over 
-Los Angeles Clippers
- (4-2)",/playoffs/2014-nba-western-conference-semifinals-clippers-vs-thunder.html
-Western Conference Semifinals,"San Antonio Spurs 
-over 
-Portland Trail Blazers
- (4-1)",/playoffs/2014-nba-western-conference-semifinals-trail-blazers-vs-spurs.html
-Eastern Conference First Round,"Brooklyn Nets 
-over 
-Toronto Raptors
- (4-3)",/playoffs/2014-nba-eastern-conference-first-round-nets-vs-raptors.html
-Eastern Conference First Round,"Indiana Pacers 
-over 
-Atlanta Hawks
- (4-3)",/playoffs/2014-nba-eastern-conference-first-round-hawks-vs-pacers.html
-Eastern Conference First Round,"Miami Heat 
-over 
-Charlotte Bobcats
- (4-0)",/playoffs/2014-nba-eastern-conference-first-round-bobcats-vs-heat.html
-Eastern Conference First Round,"Washington Wizards 
-over 
-Chicago Bulls
- (4-1)",/playoffs/2014-nba-eastern-conference-first-round-wizards-vs-bulls.html
-Western Conference First Round,"Los Angeles Clippers 
-over 
-Golden State Warriors
- (4-3)",/playoffs/2014-nba-western-conference-first-round-warriors-vs-clippers.html
-Western Conference First Round,"Oklahoma City Thunder 
-over 
-Memphis Grizzlies
- (4-3)",/playoffs/2014-nba-western-conference-first-round-grizzlies-vs-thunder.html
-Western Conference First Round,"Portland Trail Blazers 
-over 
-Houston Rockets
- (4-2)",/playoffs/2014-nba-western-conference-first-round-trail-blazers-vs-rockets.html
-Western Conference First Round,"San Antonio Spurs 
-over 
-Dallas Mavericks
- (4-3)",/playoffs/2014-nba-western-conference-first-round-mavericks-vs-spurs.html
+round,matchup,series_stats_link,winner,loser,series_result
+Finals,San Antonio Spurs over Miami Heat (4-1),/playoffs/2014-nba-finals-heat-vs-spurs.html,San Antonio Spurs,Miami Heat,4-1
+Eastern Conference Finals,Miami Heat over Indiana Pacers (4-2),/playoffs/2014-nba-eastern-conference-finals-heat-vs-pacers.html,Miami Heat,Indiana Pacers,4-2
+Western Conference Finals,San Antonio Spurs over Oklahoma City Thunder (4-2),/playoffs/2014-nba-western-conference-finals-thunder-vs-spurs.html,San Antonio Spurs,Oklahoma City Thunder,4-2
+Eastern Conference Semifinals,Indiana Pacers over Washington Wizards (4-2),/playoffs/2014-nba-eastern-conference-semifinals-wizards-vs-pacers.html,Indiana Pacers,Washington Wizards,4-2
+Eastern Conference Semifinals,Miami Heat over Brooklyn Nets (4-1),/playoffs/2014-nba-eastern-conference-semifinals-nets-vs-heat.html,Miami Heat,Brooklyn Nets,4-1
+Western Conference Semifinals,Oklahoma City Thunder over Los Angeles Clippers (4-2),/playoffs/2014-nba-western-conference-semifinals-clippers-vs-thunder.html,Oklahoma City Thunder,Los Angeles Clippers,4-2
+Western Conference Semifinals,San Antonio Spurs over Portland Trail Blazers (4-1),/playoffs/2014-nba-western-conference-semifinals-trail-blazers-vs-spurs.html,San Antonio Spurs,Portland Trail Blazers,4-1
+Eastern Conference First Round,Brooklyn Nets over Toronto Raptors (4-3),/playoffs/2014-nba-eastern-conference-first-round-nets-vs-raptors.html,Brooklyn Nets,Toronto Raptors,4-3
+Eastern Conference First Round,Indiana Pacers over Atlanta Hawks (4-3),/playoffs/2014-nba-eastern-conference-first-round-hawks-vs-pacers.html,Indiana Pacers,Atlanta Hawks,4-3
+Eastern Conference First Round,Miami Heat over Charlotte Bobcats (4-0),/playoffs/2014-nba-eastern-conference-first-round-bobcats-vs-heat.html,Miami Heat,Charlotte Bobcats,4-0
+Eastern Conference First Round,Washington Wizards over Chicago Bulls (4-1),/playoffs/2014-nba-eastern-conference-first-round-wizards-vs-bulls.html,Washington Wizards,Chicago Bulls,4-1
+Western Conference First Round,Los Angeles Clippers over Golden State Warriors (4-3),/playoffs/2014-nba-western-conference-first-round-warriors-vs-clippers.html,Los Angeles Clippers,Golden State Warriors,4-3
+Western Conference First Round,Oklahoma City Thunder over Memphis Grizzlies (4-3),/playoffs/2014-nba-western-conference-first-round-grizzlies-vs-thunder.html,Oklahoma City Thunder,Memphis Grizzlies,4-3
+Western Conference First Round,Portland Trail Blazers over Houston Rockets (4-2),/playoffs/2014-nba-western-conference-first-round-trail-blazers-vs-rockets.html,Portland Trail Blazers,Houston Rockets,4-2
+Western Conference First Round,San Antonio Spurs over Dallas Mavericks (4-3),/playoffs/2014-nba-western-conference-first-round-mavericks-vs-spurs.html,San Antonio Spurs,Dallas Mavericks,4-3

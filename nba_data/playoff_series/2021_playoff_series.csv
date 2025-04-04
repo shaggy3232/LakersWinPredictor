@@ -1,61 +1,16 @@
-round,matchup,series_stats_link
-Finals,"Milwaukee Bucks 
-over 
-Phoenix Suns
- (4-2)",/playoffs/2021-nba-finals-bucks-vs-suns.html
-Eastern Conference Finals,"Milwaukee Bucks 
-over 
-Atlanta Hawks
- (4-2)",/playoffs/2021-nba-eastern-conference-finals-hawks-vs-bucks.html
-Western Conference Finals,"Phoenix Suns 
-over 
-Los Angeles Clippers
- (4-2)",/playoffs/2021-nba-western-conference-finals-clippers-vs-suns.html
-Eastern Conference Semifinals,"Atlanta Hawks 
-over 
-Philadelphia 76ers
- (4-3)",/playoffs/2021-nba-eastern-conference-semifinals-hawks-vs-76ers.html
-Eastern Conference Semifinals,"Milwaukee Bucks 
-over 
-Brooklyn Nets
- (4-3)",/playoffs/2021-nba-eastern-conference-semifinals-bucks-vs-nets.html
-Western Conference Semifinals,"Los Angeles Clippers 
-over 
-Utah Jazz
- (4-2)",/playoffs/2021-nba-western-conference-semifinals-clippers-vs-jazz.html
-Western Conference Semifinals,"Phoenix Suns 
-over 
-Denver Nuggets
- (4-0)",/playoffs/2021-nba-western-conference-semifinals-nuggets-vs-suns.html
-Eastern Conference First Round,"Atlanta Hawks 
-over 
-New York Knicks
- (4-1)",/playoffs/2021-nba-eastern-conference-first-round-hawks-vs-knicks.html
-Eastern Conference First Round,"Brooklyn Nets 
-over 
-Boston Celtics
- (4-1)",/playoffs/2021-nba-eastern-conference-first-round-celtics-vs-nets.html
-Eastern Conference First Round,"Milwaukee Bucks 
-over 
-Miami Heat
- (4-0)",/playoffs/2021-nba-eastern-conference-first-round-heat-vs-bucks.html
-Eastern Conference First Round,"Philadelphia 76ers 
-over 
-Washington Wizards
- (4-1)",/playoffs/2021-nba-eastern-conference-first-round-wizards-vs-76ers.html
-Western Conference First Round,"Denver Nuggets 
-over 
-Portland Trail Blazers
- (4-2)",/playoffs/2021-nba-western-conference-first-round-trail-blazers-vs-nuggets.html
-Western Conference First Round,"Los Angeles Clippers 
-over 
-Dallas Mavericks
- (4-3)",/playoffs/2021-nba-western-conference-first-round-mavericks-vs-clippers.html
-Western Conference First Round,"Phoenix Suns 
-over 
-Los Angeles Lakers
- (4-2)",/playoffs/2021-nba-western-conference-first-round-lakers-vs-suns.html
-Western Conference First Round,"Utah Jazz 
-over 
-Memphis Grizzlies
- (4-1)",/playoffs/2021-nba-western-conference-first-round-grizzlies-vs-jazz.html
+round,matchup,series_stats_link,winner,loser,series_result
+Finals,Milwaukee Bucks over Phoenix Suns (4-2),/playoffs/2021-nba-finals-bucks-vs-suns.html,Milwaukee Bucks,Phoenix Suns,4-2
+Eastern Conference Finals,Milwaukee Bucks over Atlanta Hawks (4-2),/playoffs/2021-nba-eastern-conference-finals-hawks-vs-bucks.html,Milwaukee Bucks,Atlanta Hawks,4-2
+Western Conference Finals,Phoenix Suns over Los Angeles Clippers (4-2),/playoffs/2021-nba-western-conference-finals-clippers-vs-suns.html,Phoenix Suns,Los Angeles Clippers,4-2
+Eastern Conference Semifinals,Atlanta Hawks over Philadelphia 76ers (4-3),/playoffs/2021-nba-eastern-conference-semifinals-hawks-vs-76ers.html,Atlanta Hawks,Philadelphia 76ers,4-3
+Eastern Conference Semifinals,Milwaukee Bucks over Brooklyn Nets (4-3),/playoffs/2021-nba-eastern-conference-semifinals-bucks-vs-nets.html,Milwaukee Bucks,Brooklyn Nets,4-3
+Western Conference Semifinals,Los Angeles Clippers over Utah Jazz (4-2),/playoffs/2021-nba-western-conference-semifinals-clippers-vs-jazz.html,Los Angeles Clippers,Utah Jazz,4-2
+Western Conference Semifinals,Phoenix Suns over Denver Nuggets (4-0),/playoffs/2021-nba-western-conference-semifinals-nuggets-vs-suns.html,Phoenix Suns,Denver Nuggets,4-0
+Eastern Conference First Round,Atlanta Hawks over New York Knicks (4-1),/playoffs/2021-nba-eastern-conference-first-round-hawks-vs-knicks.html,Atlanta Hawks,New York Knicks,4-1
+Eastern Conference First Round,Brooklyn Nets over Boston Celtics (4-1),/playoffs/2021-nba-eastern-conference-first-round-celtics-vs-nets.html,Brooklyn Nets,Boston Celtics,4-1
+Eastern Conference First Round,Milwaukee Bucks over Miami Heat (4-0),/playoffs/2021-nba-eastern-conference-first-round-heat-vs-bucks.html,Milwaukee Bucks,Miami Heat,4-0
+Eastern Conference First Round,Philadelphia 76ers over Washington Wizards (4-1),/playoffs/2021-nba-eastern-conference-first-round-wizards-vs-76ers.html,Philadelphia 76ers,Washington Wizards,4-1
+Western Conference First Round,Denver Nuggets over Portland Trail Blazers (4-2),/playoffs/2021-nba-western-conference-first-round-trail-blazers-vs-nuggets.html,Denver Nuggets,Portland Trail Blazers,4-2
+Western Conference First Round,Los Angeles Clippers over Dallas Mavericks (4-3),/playoffs/2021-nba-western-conference-first-round-mavericks-vs-clippers.html,Los Angeles Clippers,Dallas Mavericks,4-3
+Western Conference First Round,Phoenix Suns over Los Angeles Lakers (4-2),/playoffs/2021-nba-western-conference-first-round-lakers-vs-suns.html,Phoenix Suns,Los Angeles Lakers,4-2
+Western Conference First Round,Utah Jazz over Memphis Grizzlies (4-1),/playoffs/2021-nba-western-conference-first-round-grizzlies-vs-jazz.html,Utah Jazz,Memphis Grizzlies,4-1

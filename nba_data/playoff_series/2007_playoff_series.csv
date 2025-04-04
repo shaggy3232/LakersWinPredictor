@@ -1,61 +1,16 @@
-round,matchup,series_stats_link
-Finals,"San Antonio Spurs 
-over 
-Cleveland Cavaliers
- (4-0)",/playoffs/2007-nba-finals-cavaliers-vs-spurs.html
-Eastern Conference Finals,"Cleveland Cavaliers 
-over 
-Detroit Pistons
- (4-2)",/playoffs/2007-nba-eastern-conference-finals-cavaliers-vs-pistons.html
-Western Conference Finals,"San Antonio Spurs 
-over 
-Utah Jazz
- (4-1)",/playoffs/2007-nba-western-conference-finals-jazz-vs-spurs.html
-Eastern Conference Semifinals,"Cleveland Cavaliers 
-over 
-New Jersey Nets
- (4-2)",/playoffs/2007-nba-eastern-conference-semifinals-nets-vs-cavaliers.html
-Eastern Conference Semifinals,"Detroit Pistons 
-over 
-Chicago Bulls
- (4-2)",/playoffs/2007-nba-eastern-conference-semifinals-bulls-vs-pistons.html
-Western Conference Semifinals,"San Antonio Spurs 
-over 
-Phoenix Suns
- (4-2)",/playoffs/2007-nba-western-conference-semifinals-spurs-vs-suns.html
-Western Conference Semifinals,"Utah Jazz 
-over 
-Golden State Warriors
- (4-1)",/playoffs/2007-nba-western-conference-semifinals-warriors-vs-jazz.html
-Eastern Conference First Round,"Chicago Bulls 
-over 
-Miami Heat
- (4-0)",/playoffs/2007-nba-eastern-conference-first-round-heat-vs-bulls.html
-Eastern Conference First Round,"Cleveland Cavaliers 
-over 
-Washington Wizards
- (4-0)",/playoffs/2007-nba-eastern-conference-first-round-wizards-vs-cavaliers.html
-Eastern Conference First Round,"Detroit Pistons 
-over 
-Orlando Magic
- (4-0)",/playoffs/2007-nba-eastern-conference-first-round-magic-vs-pistons.html
-Eastern Conference First Round,"New Jersey Nets 
-over 
-Toronto Raptors
- (4-2)",/playoffs/2007-nba-eastern-conference-first-round-nets-vs-raptors.html
-Western Conference First Round,"Golden State Warriors 
-over 
-Dallas Mavericks
- (4-2)",/playoffs/2007-nba-western-conference-first-round-warriors-vs-mavericks.html
-Western Conference First Round,"Phoenix Suns 
-over 
-Los Angeles Lakers
- (4-1)",/playoffs/2007-nba-western-conference-first-round-lakers-vs-suns.html
-Western Conference First Round,"San Antonio Spurs 
-over 
-Denver Nuggets
- (4-1)",/playoffs/2007-nba-western-conference-first-round-nuggets-vs-spurs.html
-Western Conference First Round,"Utah Jazz 
-over 
-Houston Rockets
- (4-3)",/playoffs/2007-nba-western-conference-first-round-jazz-vs-rockets.html
+round,matchup,series_stats_link,winner,loser,series_result
+Finals,San Antonio Spurs over Cleveland Cavaliers (4-0),/playoffs/2007-nba-finals-cavaliers-vs-spurs.html,San Antonio Spurs,Cleveland Cavaliers,4-0
+Eastern Conference Finals,Cleveland Cavaliers over Detroit Pistons (4-2),/playoffs/2007-nba-eastern-conference-finals-cavaliers-vs-pistons.html,Cleveland Cavaliers,Detroit Pistons,4-2
+Western Conference Finals,San Antonio Spurs over Utah Jazz (4-1),/playoffs/2007-nba-western-conference-finals-jazz-vs-spurs.html,San Antonio Spurs,Utah Jazz,4-1
+Eastern Conference Semifinals,Cleveland Cavaliers over New Jersey Nets (4-2),/playoffs/2007-nba-eastern-conference-semifinals-nets-vs-cavaliers.html,Cleveland Cavaliers,New Jersey Nets,4-2
+Eastern Conference Semifinals,Detroit Pistons over Chicago Bulls (4-2),/playoffs/2007-nba-eastern-conference-semifinals-bulls-vs-pistons.html,Detroit Pistons,Chicago Bulls,4-2
+Western Conference Semifinals,San Antonio Spurs over Phoenix Suns (4-2),/playoffs/2007-nba-western-conference-semifinals-spurs-vs-suns.html,San Antonio Spurs,Phoenix Suns,4-2
+Western Conference Semifinals,Utah Jazz over Golden State Warriors (4-1),/playoffs/2007-nba-western-conference-semifinals-warriors-vs-jazz.html,Utah Jazz,Golden State Warriors,4-1
+Eastern Conference First Round,Chicago Bulls over Miami Heat (4-0),/playoffs/2007-nba-eastern-conference-first-round-heat-vs-bulls.html,Chicago Bulls,Miami Heat,4-0
+Eastern Conference First Round,Cleveland Cavaliers over Washington Wizards (4-0),/playoffs/2007-nba-eastern-conference-first-round-wizards-vs-cavaliers.html,Cleveland Cavaliers,Washington Wizards,4-0
+Eastern Conference First Round,Detroit Pistons over Orlando Magic (4-0),/playoffs/2007-nba-eastern-conference-first-round-magic-vs-pistons.html,Detroit Pistons,Orlando Magic,4-0
+Eastern Conference First Round,New Jersey Nets over Toronto Raptors (4-2),/playoffs/2007-nba-eastern-conference-first-round-nets-vs-raptors.html,New Jersey Nets,Toronto Raptors,4-2
+Western Conference First Round,Golden State Warriors over Dallas Mavericks (4-2),/playoffs/2007-nba-western-conference-first-round-warriors-vs-mavericks.html,Golden State Warriors,Dallas Mavericks,4-2
+Western Conference First Round,Phoenix Suns over Los Angeles Lakers (4-1),/playoffs/2007-nba-western-conference-first-round-lakers-vs-suns.html,Phoenix Suns,Los Angeles Lakers,4-1
+Western Conference First Round,San Antonio Spurs over Denver Nuggets (4-1),/playoffs/2007-nba-western-conference-first-round-nuggets-vs-spurs.html,San Antonio Spurs,Denver Nuggets,4-1
+Western Conference First Round,Utah Jazz over Houston Rockets (4-3),/playoffs/2007-nba-western-conference-first-round-jazz-vs-rockets.html,Utah Jazz,Houston Rockets,4-3

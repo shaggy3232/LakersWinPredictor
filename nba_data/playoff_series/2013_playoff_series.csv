@@ -1,61 +1,16 @@
-round,matchup,series_stats_link
-Finals,"Miami Heat 
-over 
-San Antonio Spurs
- (4-3)",/playoffs/2013-nba-finals-spurs-vs-heat.html
-Eastern Conference Finals,"Miami Heat 
-over 
-Indiana Pacers
- (4-3)",/playoffs/2013-nba-eastern-conference-finals-pacers-vs-heat.html
-Western Conference Finals,"San Antonio Spurs 
-over 
-Memphis Grizzlies
- (4-0)",/playoffs/2013-nba-western-conference-finals-grizzlies-vs-spurs.html
-Eastern Conference Semifinals,"Indiana Pacers 
-over 
-New York Knicks
- (4-2)",/playoffs/2013-nba-eastern-conference-semifinals-pacers-vs-knicks.html
-Eastern Conference Semifinals,"Miami Heat 
-over 
-Chicago Bulls
- (4-1)",/playoffs/2013-nba-eastern-conference-semifinals-bulls-vs-heat.html
-Western Conference Semifinals,"Memphis Grizzlies 
-over 
-Oklahoma City Thunder
- (4-1)",/playoffs/2013-nba-western-conference-semifinals-grizzlies-vs-thunder.html
-Western Conference Semifinals,"San Antonio Spurs 
-over 
-Golden State Warriors
- (4-2)",/playoffs/2013-nba-western-conference-semifinals-warriors-vs-spurs.html
-Eastern Conference First Round,"Chicago Bulls 
-over 
-Brooklyn Nets
- (4-3)",/playoffs/2013-nba-eastern-conference-first-round-bulls-vs-nets.html
-Eastern Conference First Round,"Indiana Pacers 
-over 
-Atlanta Hawks
- (4-2)",/playoffs/2013-nba-eastern-conference-first-round-hawks-vs-pacers.html
-Eastern Conference First Round,"Miami Heat 
-over 
-Milwaukee Bucks
- (4-0)",/playoffs/2013-nba-eastern-conference-first-round-bucks-vs-heat.html
-Eastern Conference First Round,"New York Knicks 
-over 
-Boston Celtics
- (4-2)",/playoffs/2013-nba-eastern-conference-first-round-celtics-vs-knicks.html
-Western Conference First Round,"Golden State Warriors 
-over 
-Denver Nuggets
- (4-2)",/playoffs/2013-nba-western-conference-first-round-warriors-vs-nuggets.html
-Western Conference First Round,"Memphis Grizzlies 
-over 
-Los Angeles Clippers
- (4-2)",/playoffs/2013-nba-western-conference-first-round-grizzlies-vs-clippers.html
-Western Conference First Round,"Oklahoma City Thunder 
-over 
-Houston Rockets
- (4-2)",/playoffs/2013-nba-western-conference-first-round-rockets-vs-thunder.html
-Western Conference First Round,"San Antonio Spurs 
-over 
-Los Angeles Lakers
- (4-0)",/playoffs/2013-nba-western-conference-first-round-lakers-vs-spurs.html
+round,matchup,series_stats_link,winner,loser,series_result
+Finals,Miami Heat over San Antonio Spurs (4-3),/playoffs/2013-nba-finals-spurs-vs-heat.html,Miami Heat,San Antonio Spurs,4-3
+Eastern Conference Finals,Miami Heat over Indiana Pacers (4-3),/playoffs/2013-nba-eastern-conference-finals-pacers-vs-heat.html,Miami Heat,Indiana Pacers,4-3
+Western Conference Finals,San Antonio Spurs over Memphis Grizzlies (4-0),/playoffs/2013-nba-western-conference-finals-grizzlies-vs-spurs.html,San Antonio Spurs,Memphis Grizzlies,4-0
+Eastern Conference Semifinals,Indiana Pacers over New York Knicks (4-2),/playoffs/2013-nba-eastern-conference-semifinals-pacers-vs-knicks.html,Indiana Pacers,New York Knicks,4-2
+Eastern Conference Semifinals,Miami Heat over Chicago Bulls (4-1),/playoffs/2013-nba-eastern-conference-semifinals-bulls-vs-heat.html,Miami Heat,Chicago Bulls,4-1
+Western Conference Semifinals,Memphis Grizzlies over Oklahoma City Thunder (4-1),/playoffs/2013-nba-western-conference-semifinals-grizzlies-vs-thunder.html,Memphis Grizzlies,Oklahoma City Thunder,4-1
+Western Conference Semifinals,San Antonio Spurs over Golden State Warriors (4-2),/playoffs/2013-nba-western-conference-semifinals-warriors-vs-spurs.html,San Antonio Spurs,Golden State Warriors,4-2
+Eastern Conference First Round,Chicago Bulls over Brooklyn Nets (4-3),/playoffs/2013-nba-eastern-conference-first-round-bulls-vs-nets.html,Chicago Bulls,Brooklyn Nets,4-3
+Eastern Conference First Round,Indiana Pacers over Atlanta Hawks (4-2),/playoffs/2013-nba-eastern-conference-first-round-hawks-vs-pacers.html,Indiana Pacers,Atlanta Hawks,4-2
+Eastern Conference First Round,Miami Heat over Milwaukee Bucks (4-0),/playoffs/2013-nba-eastern-conference-first-round-bucks-vs-heat.html,Miami Heat,Milwaukee Bucks,4-0
+Eastern Conference First Round,New York Knicks over Boston Celtics (4-2),/playoffs/2013-nba-eastern-conference-first-round-celtics-vs-knicks.html,New York Knicks,Boston Celtics,4-2
+Western Conference First Round,Golden State Warriors over Denver Nuggets (4-2),/playoffs/2013-nba-western-conference-first-round-warriors-vs-nuggets.html,Golden State Warriors,Denver Nuggets,4-2
+Western Conference First Round,Memphis Grizzlies over Los Angeles Clippers (4-2),/playoffs/2013-nba-western-conference-first-round-grizzlies-vs-clippers.html,Memphis Grizzlies,Los Angeles Clippers,4-2
+Western Conference First Round,Oklahoma City Thunder over Houston Rockets (4-2),/playoffs/2013-nba-western-conference-first-round-rockets-vs-thunder.html,Oklahoma City Thunder,Houston Rockets,4-2
+Western Conference First Round,San Antonio Spurs over Los Angeles Lakers (4-0),/playoffs/2013-nba-western-conference-first-round-lakers-vs-spurs.html,San Antonio Spurs,Los Angeles Lakers,4-0

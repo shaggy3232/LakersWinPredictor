@@ -1,61 +1,16 @@
-round,matchup,series_stats_link
-Finals,"Cleveland Cavaliers 
-over 
-Golden State Warriors
- (4-3)",/playoffs/2016-nba-finals-cavaliers-vs-warriors.html
-Eastern Conference Finals,"Cleveland Cavaliers 
-over 
-Toronto Raptors
- (4-2)",/playoffs/2016-nba-eastern-conference-finals-raptors-vs-cavaliers.html
-Western Conference Finals,"Golden State Warriors 
-over 
-Oklahoma City Thunder
- (4-3)",/playoffs/2016-nba-western-conference-finals-thunder-vs-warriors.html
-Eastern Conference Semifinals,"Cleveland Cavaliers 
-over 
-Atlanta Hawks
- (4-0)",/playoffs/2016-nba-eastern-conference-semifinals-hawks-vs-cavaliers.html
-Eastern Conference Semifinals,"Toronto Raptors 
-over 
-Miami Heat
- (4-3)",/playoffs/2016-nba-eastern-conference-semifinals-heat-vs-raptors.html
-Western Conference Semifinals,"Golden State Warriors 
-over 
-Portland Trail Blazers
- (4-1)",/playoffs/2016-nba-western-conference-semifinals-trail-blazers-vs-warriors.html
-Western Conference Semifinals,"Oklahoma City Thunder 
-over 
-San Antonio Spurs
- (4-2)",/playoffs/2016-nba-western-conference-semifinals-thunder-vs-spurs.html
-Eastern Conference First Round,"Atlanta Hawks 
-over 
-Boston Celtics
- (4-2)",/playoffs/2016-nba-eastern-conference-first-round-celtics-vs-hawks.html
-Eastern Conference First Round,"Cleveland Cavaliers 
-over 
-Detroit Pistons
- (4-0)",/playoffs/2016-nba-eastern-conference-first-round-pistons-vs-cavaliers.html
-Eastern Conference First Round,"Miami Heat 
-over 
-Charlotte Hornets
- (4-3)",/playoffs/2016-nba-eastern-conference-first-round-hornets-vs-heat.html
-Eastern Conference First Round,"Toronto Raptors 
-over 
-Indiana Pacers
- (4-3)",/playoffs/2016-nba-eastern-conference-first-round-pacers-vs-raptors.html
-Western Conference First Round,"Golden State Warriors 
-over 
-Houston Rockets
- (4-1)",/playoffs/2016-nba-western-conference-first-round-rockets-vs-warriors.html
-Western Conference First Round,"Oklahoma City Thunder 
-over 
-Dallas Mavericks
- (4-1)",/playoffs/2016-nba-western-conference-first-round-mavericks-vs-thunder.html
-Western Conference First Round,"Portland Trail Blazers 
-over 
-Los Angeles Clippers
- (4-2)",/playoffs/2016-nba-western-conference-first-round-trail-blazers-vs-clippers.html
-Western Conference First Round,"San Antonio Spurs 
-over 
-Memphis Grizzlies
- (4-0)",/playoffs/2016-nba-western-conference-first-round-grizzlies-vs-spurs.html
+round,matchup,series_stats_link,winner,loser,series_result
+Finals,Cleveland Cavaliers over Golden State Warriors (4-3),/playoffs/2016-nba-finals-cavaliers-vs-warriors.html,Cleveland Cavaliers,Golden State Warriors,4-3
+Eastern Conference Finals,Cleveland Cavaliers over Toronto Raptors (4-2),/playoffs/2016-nba-eastern-conference-finals-raptors-vs-cavaliers.html,Cleveland Cavaliers,Toronto Raptors,4-2
+Western Conference Finals,Golden State Warriors over Oklahoma City Thunder (4-3),/playoffs/2016-nba-western-conference-finals-thunder-vs-warriors.html,Golden State Warriors,Oklahoma City Thunder,4-3
+Eastern Conference Semifinals,Cleveland Cavaliers over Atlanta Hawks (4-0),/playoffs/2016-nba-eastern-conference-semifinals-hawks-vs-cavaliers.html,Cleveland Cavaliers,Atlanta Hawks,4-0
+Eastern Conference Semifinals,Toronto Raptors over Miami Heat (4-3),/playoffs/2016-nba-eastern-conference-semifinals-heat-vs-raptors.html,Toronto Raptors,Miami Heat,4-3
+Western Conference Semifinals,Golden State Warriors over Portland Trail Blazers (4-1),/playoffs/2016-nba-western-conference-semifinals-trail-blazers-vs-warriors.html,Golden State Warriors,Portland Trail Blazers,4-1
+Western Conference Semifinals,Oklahoma City Thunder over San Antonio Spurs (4-2),/playoffs/2016-nba-western-conference-semifinals-thunder-vs-spurs.html,Oklahoma City Thunder,San Antonio Spurs,4-2
+Eastern Conference First Round,Atlanta Hawks over Boston Celtics (4-2),/playoffs/2016-nba-eastern-conference-first-round-celtics-vs-hawks.html,Atlanta Hawks,Boston Celtics,4-2
+Eastern Conference First Round,Cleveland Cavaliers over Detroit Pistons (4-0),/playoffs/2016-nba-eastern-conference-first-round-pistons-vs-cavaliers.html,Cleveland Cavaliers,Detroit Pistons,4-0
+Eastern Conference First Round,Miami Heat over Charlotte Hornets (4-3),/playoffs/2016-nba-eastern-conference-first-round-hornets-vs-heat.html,Miami Heat,Charlotte Hornets,4-3
+Eastern Conference First Round,Toronto Raptors over Indiana Pacers (4-3),/playoffs/2016-nba-eastern-conference-first-round-pacers-vs-raptors.html,Toronto Raptors,Indiana Pacers,4-3
+Western Conference First Round,Golden State Warriors over Houston Rockets (4-1),/playoffs/2016-nba-western-conference-first-round-rockets-vs-warriors.html,Golden State Warriors,Houston Rockets,4-1
+Western Conference First Round,Oklahoma City Thunder over Dallas Mavericks (4-1),/playoffs/2016-nba-western-conference-first-round-mavericks-vs-thunder.html,Oklahoma City Thunder,Dallas Mavericks,4-1
+Western Conference First Round,Portland Trail Blazers over Los Angeles Clippers (4-2),/playoffs/2016-nba-western-conference-first-round-trail-blazers-vs-clippers.html,Portland Trail Blazers,Los Angeles Clippers,4-2
+Western Conference First Round,San Antonio Spurs over Memphis Grizzlies (4-0),/playoffs/2016-nba-western-conference-first-round-grizzlies-vs-spurs.html,San Antonio Spurs,Memphis Grizzlies,4-0

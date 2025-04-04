@@ -1,61 +1,16 @@
-round,matchup,series_stats_link
-Finals,"Golden State Warriors 
-over 
-Cleveland Cavaliers
- (4-2)",/playoffs/2015-nba-finals-cavaliers-vs-warriors.html
-Eastern Conference Finals,"Cleveland Cavaliers 
-over 
-Atlanta Hawks
- (4-0)",/playoffs/2015-nba-eastern-conference-finals-cavaliers-vs-hawks.html
-Western Conference Finals,"Golden State Warriors 
-over 
-Houston Rockets
- (4-1)",/playoffs/2015-nba-western-conference-finals-rockets-vs-warriors.html
-Eastern Conference Semifinals,"Atlanta Hawks 
-over 
-Washington Wizards
- (4-2)",/playoffs/2015-nba-eastern-conference-semifinals-wizards-vs-hawks.html
-Eastern Conference Semifinals,"Cleveland Cavaliers 
-over 
-Chicago Bulls
- (4-2)",/playoffs/2015-nba-eastern-conference-semifinals-bulls-vs-cavaliers.html
-Western Conference Semifinals,"Golden State Warriors 
-over 
-Memphis Grizzlies
- (4-2)",/playoffs/2015-nba-western-conference-semifinals-grizzlies-vs-warriors.html
-Western Conference Semifinals,"Houston Rockets 
-over 
-Los Angeles Clippers
- (4-3)",/playoffs/2015-nba-western-conference-semifinals-clippers-vs-rockets.html
-Eastern Conference First Round,"Atlanta Hawks 
-over 
-Brooklyn Nets
- (4-2)",/playoffs/2015-nba-eastern-conference-first-round-nets-vs-hawks.html
-Eastern Conference First Round,"Chicago Bulls 
-over 
-Milwaukee Bucks
- (4-2)",/playoffs/2015-nba-eastern-conference-first-round-bucks-vs-bulls.html
-Eastern Conference First Round,"Cleveland Cavaliers 
-over 
-Boston Celtics
- (4-0)",/playoffs/2015-nba-eastern-conference-first-round-celtics-vs-cavaliers.html
-Eastern Conference First Round,"Washington Wizards 
-over 
-Toronto Raptors
- (4-0)",/playoffs/2015-nba-eastern-conference-first-round-wizards-vs-raptors.html
-Western Conference First Round,"Golden State Warriors 
-over 
-New Orleans Pelicans
- (4-0)",/playoffs/2015-nba-western-conference-first-round-pelicans-vs-warriors.html
-Western Conference First Round,"Houston Rockets 
-over 
-Dallas Mavericks
- (4-1)",/playoffs/2015-nba-western-conference-first-round-mavericks-vs-rockets.html
-Western Conference First Round,"Los Angeles Clippers 
-over 
-San Antonio Spurs
- (4-3)",/playoffs/2015-nba-western-conference-first-round-spurs-vs-clippers.html
-Western Conference First Round,"Memphis Grizzlies 
-over 
-Portland Trail Blazers
- (4-1)",/playoffs/2015-nba-western-conference-first-round-trail-blazers-vs-grizzlies.html
+round,matchup,series_stats_link,winner,loser,series_result
+Finals,Golden State Warriors over Cleveland Cavaliers (4-2),/playoffs/2015-nba-finals-cavaliers-vs-warriors.html,Golden State Warriors,Cleveland Cavaliers,4-2
+Eastern Conference Finals,Cleveland Cavaliers over Atlanta Hawks (4-0),/playoffs/2015-nba-eastern-conference-finals-cavaliers-vs-hawks.html,Cleveland Cavaliers,Atlanta Hawks,4-0
+Western Conference Finals,Golden State Warriors over Houston Rockets (4-1),/playoffs/2015-nba-western-conference-finals-rockets-vs-warriors.html,Golden State Warriors,Houston Rockets,4-1
+Eastern Conference Semifinals,Atlanta Hawks over Washington Wizards (4-2),/playoffs/2015-nba-eastern-conference-semifinals-wizards-vs-hawks.html,Atlanta Hawks,Washington Wizards,4-2
+Eastern Conference Semifinals,Cleveland Cavaliers over Chicago Bulls (4-2),/playoffs/2015-nba-eastern-conference-semifinals-bulls-vs-cavaliers.html,Cleveland Cavaliers,Chicago Bulls,4-2
+Western Conference Semifinals,Golden State Warriors over Memphis Grizzlies (4-2),/playoffs/2015-nba-western-conference-semifinals-grizzlies-vs-warriors.html,Golden State Warriors,Memphis Grizzlies,4-2
+Western Conference Semifinals,Houston Rockets over Los Angeles Clippers (4-3),/playoffs/2015-nba-western-conference-semifinals-clippers-vs-rockets.html,Houston Rockets,Los Angeles Clippers,4-3
+Eastern Conference First Round,Atlanta Hawks over Brooklyn Nets (4-2),/playoffs/2015-nba-eastern-conference-first-round-nets-vs-hawks.html,Atlanta Hawks,Brooklyn Nets,4-2
+Eastern Conference First Round,Chicago Bulls over Milwaukee Bucks (4-2),/playoffs/2015-nba-eastern-conference-first-round-bucks-vs-bulls.html,Chicago Bulls,Milwaukee Bucks,4-2
+Eastern Conference First Round,Cleveland Cavaliers over Boston Celtics (4-0),/playoffs/2015-nba-eastern-conference-first-round-celtics-vs-cavaliers.html,Cleveland Cavaliers,Boston Celtics,4-0
+Eastern Conference First Round,Washington Wizards over Toronto Raptors (4-0),/playoffs/2015-nba-eastern-conference-first-round-wizards-vs-raptors.html,Washington Wizards,Toronto Raptors,4-0
+Western Conference First Round,Golden State Warriors over New Orleans Pelicans (4-0),/playoffs/2015-nba-western-conference-first-round-pelicans-vs-warriors.html,Golden State Warriors,New Orleans Pelicans,4-0
+Western Conference First Round,Houston Rockets over Dallas Mavericks (4-1),/playoffs/2015-nba-western-conference-first-round-mavericks-vs-rockets.html,Houston Rockets,Dallas Mavericks,4-1
+Western Conference First Round,Los Angeles Clippers over San Antonio Spurs (4-3),/playoffs/2015-nba-western-conference-first-round-spurs-vs-clippers.html,Los Angeles Clippers,San Antonio Spurs,4-3
+Western Conference First Round,Memphis Grizzlies over Portland Trail Blazers (4-1),/playoffs/2015-nba-western-conference-first-round-trail-blazers-vs-grizzlies.html,Memphis Grizzlies,Portland Trail Blazers,4-1

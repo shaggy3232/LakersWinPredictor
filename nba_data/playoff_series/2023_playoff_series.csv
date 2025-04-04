@@ -1,61 +1,16 @@
-round,matchup,series_stats_link
-Finals,"Denver Nuggets 
-over 
-Miami Heat
- (4-1)",/playoffs/2023-nba-finals-heat-vs-nuggets.html
-Eastern Conference Finals,"Miami Heat 
-over 
-Boston Celtics
- (4-3)",/playoffs/2023-nba-eastern-conference-finals-heat-vs-celtics.html
-Western Conference Finals,"Denver Nuggets 
-over 
-Los Angeles Lakers
- (4-0)",/playoffs/2023-nba-western-conference-finals-lakers-vs-nuggets.html
-Eastern Conference Semifinals,"Boston Celtics 
-over 
-Philadelphia 76ers
- (4-3)",/playoffs/2023-nba-eastern-conference-semifinals-76ers-vs-celtics.html
-Eastern Conference Semifinals,"Miami Heat 
-over 
-New York Knicks
- (4-2)",/playoffs/2023-nba-eastern-conference-semifinals-heat-vs-knicks.html
-Western Conference Semifinals,"Denver Nuggets 
-over 
-Phoenix Suns
- (4-2)",/playoffs/2023-nba-western-conference-semifinals-suns-vs-nuggets.html
-Western Conference Semifinals,"Los Angeles Lakers 
-over 
-Golden State Warriors
- (4-2)",/playoffs/2023-nba-western-conference-semifinals-lakers-vs-warriors.html
-Eastern Conference First Round,"Boston Celtics 
-over 
-Atlanta Hawks
- (4-2)",/playoffs/2023-nba-eastern-conference-first-round-hawks-vs-celtics.html
-Eastern Conference First Round,"Miami Heat 
-over 
-Milwaukee Bucks
- (4-1)",/playoffs/2023-nba-eastern-conference-first-round-heat-vs-bucks.html
-Eastern Conference First Round,"New York Knicks 
-over 
-Cleveland Cavaliers
- (4-1)",/playoffs/2023-nba-eastern-conference-first-round-knicks-vs-cavaliers.html
-Eastern Conference First Round,"Philadelphia 76ers 
-over 
-Brooklyn Nets
- (4-0)",/playoffs/2023-nba-eastern-conference-first-round-nets-vs-76ers.html
-Western Conference First Round,"Denver Nuggets 
-over 
-Minnesota Timberwolves
- (4-1)",/playoffs/2023-nba-western-conference-first-round-timberwolves-vs-nuggets.html
-Western Conference First Round,"Golden State Warriors 
-over 
-Sacramento Kings
- (4-3)",/playoffs/2023-nba-western-conference-first-round-warriors-vs-kings.html
-Western Conference First Round,"Los Angeles Lakers 
-over 
-Memphis Grizzlies
- (4-2)",/playoffs/2023-nba-western-conference-first-round-lakers-vs-grizzlies.html
-Western Conference First Round,"Phoenix Suns 
-over 
-Los Angeles Clippers
- (4-1)",/playoffs/2023-nba-western-conference-first-round-clippers-vs-suns.html
+round,matchup,series_stats_link,winner,loser,series_result
+Finals,Denver Nuggets over Miami Heat (4-1),/playoffs/2023-nba-finals-heat-vs-nuggets.html,Denver Nuggets,Miami Heat,4-1
+Eastern Conference Finals,Miami Heat over Boston Celtics (4-3),/playoffs/2023-nba-eastern-conference-finals-heat-vs-celtics.html,Miami Heat,Boston Celtics,4-3
+Western Conference Finals,Denver Nuggets over Los Angeles Lakers (4-0),/playoffs/2023-nba-western-conference-finals-lakers-vs-nuggets.html,Denver Nuggets,Los Angeles Lakers,4-0
+Eastern Conference Semifinals,Boston Celtics over Philadelphia 76ers (4-3),/playoffs/2023-nba-eastern-conference-semifinals-76ers-vs-celtics.html,Boston Celtics,Philadelphia 76ers,4-3
+Eastern Conference Semifinals,Miami Heat over New York Knicks (4-2),/playoffs/2023-nba-eastern-conference-semifinals-heat-vs-knicks.html,Miami Heat,New York Knicks,4-2
+Western Conference Semifinals,Denver Nuggets over Phoenix Suns (4-2),/playoffs/2023-nba-western-conference-semifinals-suns-vs-nuggets.html,Denver Nuggets,Phoenix Suns,4-2
+Western Conference Semifinals,Los Angeles Lakers over Golden State Warriors (4-2),/playoffs/2023-nba-western-conference-semifinals-lakers-vs-warriors.html,Los Angeles Lakers,Golden State Warriors,4-2
+Eastern Conference First Round,Boston Celtics over Atlanta Hawks (4-2),/playoffs/2023-nba-eastern-conference-first-round-hawks-vs-celtics.html,Boston Celtics,Atlanta Hawks,4-2
+Eastern Conference First Round,Miami Heat over Milwaukee Bucks (4-1),/playoffs/2023-nba-eastern-conference-first-round-heat-vs-bucks.html,Miami Heat,Milwaukee Bucks,4-1
+Eastern Conference First Round,New York Knicks over Cleveland Cavaliers (4-1),/playoffs/2023-nba-eastern-conference-first-round-knicks-vs-cavaliers.html,New York Knicks,Cleveland Cavaliers,4-1
+Eastern Conference First Round,Philadelphia 76ers over Brooklyn Nets (4-0),/playoffs/2023-nba-eastern-conference-first-round-nets-vs-76ers.html,Philadelphia 76ers,Brooklyn Nets,4-0
+Western Conference First Round,Denver Nuggets over Minnesota Timberwolves (4-1),/playoffs/2023-nba-western-conference-first-round-timberwolves-vs-nuggets.html,Denver Nuggets,Minnesota Timberwolves,4-1
+Western Conference First Round,Golden State Warriors over Sacramento Kings (4-3),/playoffs/2023-nba-western-conference-first-round-warriors-vs-kings.html,Golden State Warriors,Sacramento Kings,4-3
+Western Conference First Round,Los Angeles Lakers over Memphis Grizzlies (4-2),/playoffs/2023-nba-western-conference-first-round-lakers-vs-grizzlies.html,Los Angeles Lakers,Memphis Grizzlies,4-2
+Western Conference First Round,Phoenix Suns over Los Angeles Clippers (4-1),/playoffs/2023-nba-western-conference-first-round-clippers-vs-suns.html,Phoenix Suns,Los Angeles Clippers,4-1

@@ -1,61 +1,16 @@
-round,matchup,series_stats_link
-Finals,"Boston Celtics 
-over 
-Los Angeles Lakers
- (4-2)",/playoffs/2008-nba-finals-lakers-vs-celtics.html
-Eastern Conference Finals,"Boston Celtics 
-over 
-Detroit Pistons
- (4-2)",/playoffs/2008-nba-eastern-conference-finals-pistons-vs-celtics.html
-Western Conference Finals,"Los Angeles Lakers 
-over 
-San Antonio Spurs
- (4-1)",/playoffs/2008-nba-western-conference-finals-spurs-vs-lakers.html
-Eastern Conference Semifinals,"Boston Celtics 
-over 
-Cleveland Cavaliers
- (4-3)",/playoffs/2008-nba-eastern-conference-semifinals-cavaliers-vs-celtics.html
-Eastern Conference Semifinals,"Detroit Pistons 
-over 
-Orlando Magic
- (4-1)",/playoffs/2008-nba-eastern-conference-semifinals-magic-vs-pistons.html
-Western Conference Semifinals,"Los Angeles Lakers 
-over 
-Utah Jazz
- (4-2)",/playoffs/2008-nba-western-conference-semifinals-jazz-vs-lakers.html
-Western Conference Semifinals,"San Antonio Spurs 
-over 
-New Orleans Hornets
- (4-3)",/playoffs/2008-nba-western-conference-semifinals-spurs-vs-hornets.html
-Eastern Conference First Round,"Boston Celtics 
-over 
-Atlanta Hawks
- (4-3)",/playoffs/2008-nba-eastern-conference-first-round-hawks-vs-celtics.html
-Eastern Conference First Round,"Cleveland Cavaliers 
-over 
-Washington Wizards
- (4-2)",/playoffs/2008-nba-eastern-conference-first-round-wizards-vs-cavaliers.html
-Eastern Conference First Round,"Detroit Pistons 
-over 
-Philadelphia 76ers
- (4-2)",/playoffs/2008-nba-eastern-conference-first-round-76ers-vs-pistons.html
-Eastern Conference First Round,"Orlando Magic 
-over 
-Toronto Raptors
- (4-1)",/playoffs/2008-nba-eastern-conference-first-round-raptors-vs-magic.html
-Western Conference First Round,"Los Angeles Lakers 
-over 
-Denver Nuggets
- (4-0)",/playoffs/2008-nba-western-conference-first-round-nuggets-vs-lakers.html
-Western Conference First Round,"New Orleans Hornets 
-over 
-Dallas Mavericks
- (4-1)",/playoffs/2008-nba-western-conference-first-round-mavericks-vs-hornets.html
-Western Conference First Round,"San Antonio Spurs 
-over 
-Phoenix Suns
- (4-1)",/playoffs/2008-nba-western-conference-first-round-suns-vs-spurs.html
-Western Conference First Round,"Utah Jazz 
-over 
-Houston Rockets
- (4-2)",/playoffs/2008-nba-western-conference-first-round-jazz-vs-rockets.html
+round,matchup,series_stats_link,winner,loser,series_result
+Finals,Boston Celtics over Los Angeles Lakers (4-2),/playoffs/2008-nba-finals-lakers-vs-celtics.html,Boston Celtics,Los Angeles Lakers,4-2
+Eastern Conference Finals,Boston Celtics over Detroit Pistons (4-2),/playoffs/2008-nba-eastern-conference-finals-pistons-vs-celtics.html,Boston Celtics,Detroit Pistons,4-2
+Western Conference Finals,Los Angeles Lakers over San Antonio Spurs (4-1),/playoffs/2008-nba-western-conference-finals-spurs-vs-lakers.html,Los Angeles Lakers,San Antonio Spurs,4-1
+Eastern Conference Semifinals,Boston Celtics over Cleveland Cavaliers (4-3),/playoffs/2008-nba-eastern-conference-semifinals-cavaliers-vs-celtics.html,Boston Celtics,Cleveland Cavaliers,4-3
+Eastern Conference Semifinals,Detroit Pistons over Orlando Magic (4-1),/playoffs/2008-nba-eastern-conference-semifinals-magic-vs-pistons.html,Detroit Pistons,Orlando Magic,4-1
+Western Conference Semifinals,Los Angeles Lakers over Utah Jazz (4-2),/playoffs/2008-nba-western-conference-semifinals-jazz-vs-lakers.html,Los Angeles Lakers,Utah Jazz,4-2
+Western Conference Semifinals,San Antonio Spurs over New Orleans Hornets (4-3),/playoffs/2008-nba-western-conference-semifinals-spurs-vs-hornets.html,San Antonio Spurs,New Orleans Hornets,4-3
+Eastern Conference First Round,Boston Celtics over Atlanta Hawks (4-3),/playoffs/2008-nba-eastern-conference-first-round-hawks-vs-celtics.html,Boston Celtics,Atlanta Hawks,4-3
+Eastern Conference First Round,Cleveland Cavaliers over Washington Wizards (4-2),/playoffs/2008-nba-eastern-conference-first-round-wizards-vs-cavaliers.html,Cleveland Cavaliers,Washington Wizards,4-2
+Eastern Conference First Round,Detroit Pistons over Philadelphia 76ers (4-2),/playoffs/2008-nba-eastern-conference-first-round-76ers-vs-pistons.html,Detroit Pistons,Philadelphia 76ers,4-2
+Eastern Conference First Round,Orlando Magic over Toronto Raptors (4-1),/playoffs/2008-nba-eastern-conference-first-round-raptors-vs-magic.html,Orlando Magic,Toronto Raptors,4-1
+Western Conference First Round,Los Angeles Lakers over Denver Nuggets (4-0),/playoffs/2008-nba-western-conference-first-round-nuggets-vs-lakers.html,Los Angeles Lakers,Denver Nuggets,4-0
+Western Conference First Round,New Orleans Hornets over Dallas Mavericks (4-1),/playoffs/2008-nba-western-conference-first-round-mavericks-vs-hornets.html,New Orleans Hornets,Dallas Mavericks,4-1
+Western Conference First Round,San Antonio Spurs over Phoenix Suns (4-1),/playoffs/2008-nba-western-conference-first-round-suns-vs-spurs.html,San Antonio Spurs,Phoenix Suns,4-1
+Western Conference First Round,Utah Jazz over Houston Rockets (4-2),/playoffs/2008-nba-western-conference-first-round-jazz-vs-rockets.html,Utah Jazz,Houston Rockets,4-2

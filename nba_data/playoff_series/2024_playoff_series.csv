@@ -1,61 +1,16 @@
-round,matchup,series_stats_link
-Finals,"Boston Celtics 
-over 
-Dallas Mavericks
- (4-1)",/playoffs/2024-nba-finals-mavericks-vs-celtics.html
-Eastern Conference Finals,"Boston Celtics 
-over 
-Indiana Pacers
- (4-0)",/playoffs/2024-nba-eastern-conference-finals-pacers-vs-celtics.html
-Western Conference Finals,"Dallas Mavericks 
-over 
-Minnesota Timberwolves
- (4-1)",/playoffs/2024-nba-western-conference-finals-mavericks-vs-timberwolves.html
-Eastern Conference Semifinals,"Boston Celtics 
-over 
-Cleveland Cavaliers
- (4-1)",/playoffs/2024-nba-eastern-conference-semifinals-cavaliers-vs-celtics.html
-Eastern Conference Semifinals,"Indiana Pacers 
-over 
-New York Knicks
- (4-3)",/playoffs/2024-nba-eastern-conference-semifinals-pacers-vs-knicks.html
-Western Conference Semifinals,"Dallas Mavericks 
-over 
-Oklahoma City Thunder
- (4-2)",/playoffs/2024-nba-western-conference-semifinals-mavericks-vs-thunder.html
-Western Conference Semifinals,"Minnesota Timberwolves 
-over 
-Denver Nuggets
- (4-3)",/playoffs/2024-nba-western-conference-semifinals-timberwolves-vs-nuggets.html
-Eastern Conference First Round,"Boston Celtics 
-over 
-Miami Heat
- (4-1)",/playoffs/2024-nba-eastern-conference-first-round-heat-vs-celtics.html
-Eastern Conference First Round,"Cleveland Cavaliers 
-over 
-Orlando Magic
- (4-3)",/playoffs/2024-nba-eastern-conference-first-round-magic-vs-cavaliers.html
-Eastern Conference First Round,"Indiana Pacers 
-over 
-Milwaukee Bucks
- (4-2)",/playoffs/2024-nba-eastern-conference-first-round-pacers-vs-bucks.html
-Eastern Conference First Round,"New York Knicks 
-over 
-Philadelphia 76ers
- (4-2)",/playoffs/2024-nba-eastern-conference-first-round-76ers-vs-knicks.html
-Western Conference First Round,"Dallas Mavericks 
-over 
-Los Angeles Clippers
- (4-2)",/playoffs/2024-nba-western-conference-first-round-mavericks-vs-clippers.html
-Western Conference First Round,"Denver Nuggets 
-over 
-Los Angeles Lakers
- (4-1)",/playoffs/2024-nba-western-conference-first-round-lakers-vs-nuggets.html
-Western Conference First Round,"Minnesota Timberwolves 
-over 
-Phoenix Suns
- (4-0)",/playoffs/2024-nba-western-conference-first-round-suns-vs-timberwolves.html
-Western Conference First Round,"Oklahoma City Thunder 
-over 
-New Orleans Pelicans
- (4-0)",/playoffs/2024-nba-western-conference-first-round-pelicans-vs-thunder.html
+round,matchup,series_stats_link,winner,loser,series_result
+Finals,Boston Celtics over Dallas Mavericks (4-1),/playoffs/2024-nba-finals-mavericks-vs-celtics.html,Boston Celtics,Dallas Mavericks,4-1
+Eastern Conference Finals,Boston Celtics over Indiana Pacers (4-0),/playoffs/2024-nba-eastern-conference-finals-pacers-vs-celtics.html,Boston Celtics,Indiana Pacers,4-0
+Western Conference Finals,Dallas Mavericks over Minnesota Timberwolves (4-1),/playoffs/2024-nba-western-conference-finals-mavericks-vs-timberwolves.html,Dallas Mavericks,Minnesota Timberwolves,4-1
+Eastern Conference Semifinals,Boston Celtics over Cleveland Cavaliers (4-1),/playoffs/2024-nba-eastern-conference-semifinals-cavaliers-vs-celtics.html,Boston Celtics,Cleveland Cavaliers,4-1
+Eastern Conference Semifinals,Indiana Pacers over New York Knicks (4-3),/playoffs/2024-nba-eastern-conference-semifinals-pacers-vs-knicks.html,Indiana Pacers,New York Knicks,4-3
+Western Conference Semifinals,Dallas Mavericks over Oklahoma City Thunder (4-2),/playoffs/2024-nba-western-conference-semifinals-mavericks-vs-thunder.html,Dallas Mavericks,Oklahoma City Thunder,4-2
+Western Conference Semifinals,Minnesota Timberwolves over Denver Nuggets (4-3),/playoffs/2024-nba-western-conference-semifinals-timberwolves-vs-nuggets.html,Minnesota Timberwolves,Denver Nuggets,4-3
+Eastern Conference First Round,Boston Celtics over Miami Heat (4-1),/playoffs/2024-nba-eastern-conference-first-round-heat-vs-celtics.html,Boston Celtics,Miami Heat,4-1
+Eastern Conference First Round,Cleveland Cavaliers over Orlando Magic (4-3),/playoffs/2024-nba-eastern-conference-first-round-magic-vs-cavaliers.html,Cleveland Cavaliers,Orlando Magic,4-3
+Eastern Conference First Round,Indiana Pacers over Milwaukee Bucks (4-2),/playoffs/2024-nba-eastern-conference-first-round-pacers-vs-bucks.html,Indiana Pacers,Milwaukee Bucks,4-2
+Eastern Conference First Round,New York Knicks over Philadelphia 76ers (4-2),/playoffs/2024-nba-eastern-conference-first-round-76ers-vs-knicks.html,New York Knicks,Philadelphia 76ers,4-2
+Western Conference First Round,Dallas Mavericks over Los Angeles Clippers (4-2),/playoffs/2024-nba-western-conference-first-round-mavericks-vs-clippers.html,Dallas Mavericks,Los Angeles Clippers,4-2
+Western Conference First Round,Denver Nuggets over Los Angeles Lakers (4-1),/playoffs/2024-nba-western-conference-first-round-lakers-vs-nuggets.html,Denver Nuggets,Los Angeles Lakers,4-1
+Western Conference First Round,Minnesota Timberwolves over Phoenix Suns (4-0),/playoffs/2024-nba-western-conference-first-round-suns-vs-timberwolves.html,Minnesota Timberwolves,Phoenix Suns,4-0
+Western Conference First Round,Oklahoma City Thunder over New Orleans Pelicans (4-0),/playoffs/2024-nba-western-conference-first-round-pelicans-vs-thunder.html,Oklahoma City Thunder,New Orleans Pelicans,4-0

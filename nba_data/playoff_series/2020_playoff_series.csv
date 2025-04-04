@@ -1,61 +1,16 @@
-round,matchup,series_stats_link
-Finals,"Los Angeles Lakers 
-over 
-Miami Heat
- (4-2)",/playoffs/2020-nba-finals-heat-vs-lakers.html
-Eastern Conference Finals,"Miami Heat 
-over 
-Boston Celtics
- (4-2)",/playoffs/2020-nba-eastern-conference-finals-heat-vs-celtics.html
-Western Conference Finals,"Los Angeles Lakers 
-over 
-Denver Nuggets
- (4-1)",/playoffs/2020-nba-western-conference-finals-nuggets-vs-lakers.html
-Eastern Conference Semifinals,"Boston Celtics 
-over 
-Toronto Raptors
- (4-3)",/playoffs/2020-nba-eastern-conference-semifinals-celtics-vs-raptors.html
-Eastern Conference Semifinals,"Miami Heat 
-over 
-Milwaukee Bucks
- (4-1)",/playoffs/2020-nba-eastern-conference-semifinals-heat-vs-bucks.html
-Western Conference Semifinals,"Denver Nuggets 
-over 
-Los Angeles Clippers
- (4-3)",/playoffs/2020-nba-western-conference-semifinals-nuggets-vs-clippers.html
-Western Conference Semifinals,"Los Angeles Lakers 
-over 
-Houston Rockets
- (4-1)",/playoffs/2020-nba-western-conference-semifinals-rockets-vs-lakers.html
-Eastern Conference First Round,"Boston Celtics 
-over 
-Philadelphia 76ers
- (4-0)",/playoffs/2020-nba-eastern-conference-first-round-76ers-vs-celtics.html
-Eastern Conference First Round,"Miami Heat 
-over 
-Indiana Pacers
- (4-0)",/playoffs/2020-nba-eastern-conference-first-round-heat-vs-pacers.html
-Eastern Conference First Round,"Milwaukee Bucks 
-over 
-Orlando Magic
- (4-1)",/playoffs/2020-nba-eastern-conference-first-round-magic-vs-bucks.html
-Eastern Conference First Round,"Toronto Raptors 
-over 
-Brooklyn Nets
- (4-0)",/playoffs/2020-nba-eastern-conference-first-round-nets-vs-raptors.html
-Western Conference First Round,"Denver Nuggets 
-over 
-Utah Jazz
- (4-3)",/playoffs/2020-nba-western-conference-first-round-jazz-vs-nuggets.html
-Western Conference First Round,"Houston Rockets 
-over 
-Oklahoma City Thunder
- (4-3)",/playoffs/2020-nba-western-conference-first-round-thunder-vs-rockets.html
-Western Conference First Round,"Los Angeles Clippers 
-over 
-Dallas Mavericks
- (4-2)",/playoffs/2020-nba-western-conference-first-round-mavericks-vs-clippers.html
-Western Conference First Round,"Los Angeles Lakers 
-over 
-Portland Trail Blazers
- (4-1)",/playoffs/2020-nba-western-conference-first-round-trail-blazers-vs-lakers.html
+round,matchup,series_stats_link,winner,loser,series_result
+Finals,Los Angeles Lakers over Miami Heat (4-2),/playoffs/2020-nba-finals-heat-vs-lakers.html,Los Angeles Lakers,Miami Heat,4-2
+Eastern Conference Finals,Miami Heat over Boston Celtics (4-2),/playoffs/2020-nba-eastern-conference-finals-heat-vs-celtics.html,Miami Heat,Boston Celtics,4-2
+Western Conference Finals,Los Angeles Lakers over Denver Nuggets (4-1),/playoffs/2020-nba-western-conference-finals-nuggets-vs-lakers.html,Los Angeles Lakers,Denver Nuggets,4-1
+Eastern Conference Semifinals,Boston Celtics over Toronto Raptors (4-3),/playoffs/2020-nba-eastern-conference-semifinals-celtics-vs-raptors.html,Boston Celtics,Toronto Raptors,4-3
+Eastern Conference Semifinals,Miami Heat over Milwaukee Bucks (4-1),/playoffs/2020-nba-eastern-conference-semifinals-heat-vs-bucks.html,Miami Heat,Milwaukee Bucks,4-1
+Western Conference Semifinals,Denver Nuggets over Los Angeles Clippers (4-3),/playoffs/2020-nba-western-conference-semifinals-nuggets-vs-clippers.html,Denver Nuggets,Los Angeles Clippers,4-3
+Western Conference Semifinals,Los Angeles Lakers over Houston Rockets (4-1),/playoffs/2020-nba-western-conference-semifinals-rockets-vs-lakers.html,Los Angeles Lakers,Houston Rockets,4-1
+Eastern Conference First Round,Boston Celtics over Philadelphia 76ers (4-0),/playoffs/2020-nba-eastern-conference-first-round-76ers-vs-celtics.html,Boston Celtics,Philadelphia 76ers,4-0
+Eastern Conference First Round,Miami Heat over Indiana Pacers (4-0),/playoffs/2020-nba-eastern-conference-first-round-heat-vs-pacers.html,Miami Heat,Indiana Pacers,4-0
+Eastern Conference First Round,Milwaukee Bucks over Orlando Magic (4-1),/playoffs/2020-nba-eastern-conference-first-round-magic-vs-bucks.html,Milwaukee Bucks,Orlando Magic,4-1
+Eastern Conference First Round,Toronto Raptors over Brooklyn Nets (4-0),/playoffs/2020-nba-eastern-conference-first-round-nets-vs-raptors.html,Toronto Raptors,Brooklyn Nets,4-0
+Western Conference First Round,Denver Nuggets over Utah Jazz (4-3),/playoffs/2020-nba-western-conference-first-round-jazz-vs-nuggets.html,Denver Nuggets,Utah Jazz,4-3
+Western Conference First Round,Houston Rockets over Oklahoma City Thunder (4-3),/playoffs/2020-nba-western-conference-first-round-thunder-vs-rockets.html,Houston Rockets,Oklahoma City Thunder,4-3
+Western Conference First Round,Los Angeles Clippers over Dallas Mavericks (4-2),/playoffs/2020-nba-western-conference-first-round-mavericks-vs-clippers.html,Los Angeles Clippers,Dallas Mavericks,4-2
+Western Conference First Round,Los Angeles Lakers over Portland Trail Blazers (4-1),/playoffs/2020-nba-western-conference-first-round-trail-blazers-vs-lakers.html,Los Angeles Lakers,Portland Trail Blazers,4-1

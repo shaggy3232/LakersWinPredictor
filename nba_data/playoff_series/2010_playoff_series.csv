@@ -1,61 +1,16 @@
-round,matchup,series_stats_link
-Finals,"Los Angeles Lakers 
-over 
-Boston Celtics
- (4-3)",/playoffs/2010-nba-finals-celtics-vs-lakers.html
-Eastern Conference Finals,"Boston Celtics 
-over 
-Orlando Magic
- (4-2)",/playoffs/2010-nba-eastern-conference-finals-celtics-vs-magic.html
-Western Conference Finals,"Los Angeles Lakers 
-over 
-Phoenix Suns
- (4-2)",/playoffs/2010-nba-western-conference-finals-suns-vs-lakers.html
-Eastern Conference Semifinals,"Boston Celtics 
-over 
-Cleveland Cavaliers
- (4-2)",/playoffs/2010-nba-eastern-conference-semifinals-celtics-vs-cavaliers.html
-Eastern Conference Semifinals,"Orlando Magic 
-over 
-Atlanta Hawks
- (4-0)",/playoffs/2010-nba-eastern-conference-semifinals-hawks-vs-magic.html
-Western Conference Semifinals,"Los Angeles Lakers 
-over 
-Utah Jazz
- (4-0)",/playoffs/2010-nba-western-conference-semifinals-jazz-vs-lakers.html
-Western Conference Semifinals,"Phoenix Suns 
-over 
-San Antonio Spurs
- (4-0)",/playoffs/2010-nba-western-conference-semifinals-spurs-vs-suns.html
-Eastern Conference First Round,"Atlanta Hawks 
-over 
-Milwaukee Bucks
- (4-3)",/playoffs/2010-nba-eastern-conference-first-round-bucks-vs-hawks.html
-Eastern Conference First Round,"Boston Celtics 
-over 
-Miami Heat
- (4-1)",/playoffs/2010-nba-eastern-conference-first-round-heat-vs-celtics.html
-Eastern Conference First Round,"Cleveland Cavaliers 
-over 
-Chicago Bulls
- (4-1)",/playoffs/2010-nba-eastern-conference-first-round-bulls-vs-cavaliers.html
-Eastern Conference First Round,"Orlando Magic 
-over 
-Charlotte Bobcats
- (4-0)",/playoffs/2010-nba-eastern-conference-first-round-bobcats-vs-magic.html
-Western Conference First Round,"Los Angeles Lakers 
-over 
-Oklahoma City Thunder
- (4-2)",/playoffs/2010-nba-western-conference-first-round-thunder-vs-lakers.html
-Western Conference First Round,"Phoenix Suns 
-over 
-Portland Trail Blazers
- (4-2)",/playoffs/2010-nba-western-conference-first-round-trail-blazers-vs-suns.html
-Western Conference First Round,"San Antonio Spurs 
-over 
-Dallas Mavericks
- (4-2)",/playoffs/2010-nba-western-conference-first-round-spurs-vs-mavericks.html
-Western Conference First Round,"Utah Jazz 
-over 
-Denver Nuggets
- (4-2)",/playoffs/2010-nba-western-conference-first-round-jazz-vs-nuggets.html
+round,matchup,series_stats_link,winner,loser,series_result
+Finals,Los Angeles Lakers over Boston Celtics (4-3),/playoffs/2010-nba-finals-celtics-vs-lakers.html,Los Angeles Lakers,Boston Celtics,4-3
+Eastern Conference Finals,Boston Celtics over Orlando Magic (4-2),/playoffs/2010-nba-eastern-conference-finals-celtics-vs-magic.html,Boston Celtics,Orlando Magic,4-2
+Western Conference Finals,Los Angeles Lakers over Phoenix Suns (4-2),/playoffs/2010-nba-western-conference-finals-suns-vs-lakers.html,Los Angeles Lakers,Phoenix Suns,4-2
+Eastern Conference Semifinals,Boston Celtics over Cleveland Cavaliers (4-2),/playoffs/2010-nba-eastern-conference-semifinals-celtics-vs-cavaliers.html,Boston Celtics,Cleveland Cavaliers,4-2
+Eastern Conference Semifinals,Orlando Magic over Atlanta Hawks (4-0),/playoffs/2010-nba-eastern-conference-semifinals-hawks-vs-magic.html,Orlando Magic,Atlanta Hawks,4-0
+Western Conference Semifinals,Los Angeles Lakers over Utah Jazz (4-0),/playoffs/2010-nba-western-conference-semifinals-jazz-vs-lakers.html,Los Angeles Lakers,Utah Jazz,4-0
+Western Conference Semifinals,Phoenix Suns over San Antonio Spurs (4-0),/playoffs/2010-nba-western-conference-semifinals-spurs-vs-suns.html,Phoenix Suns,San Antonio Spurs,4-0
+Eastern Conference First Round,Atlanta Hawks over Milwaukee Bucks (4-3),/playoffs/2010-nba-eastern-conference-first-round-bucks-vs-hawks.html,Atlanta Hawks,Milwaukee Bucks,4-3
+Eastern Conference First Round,Boston Celtics over Miami Heat (4-1),/playoffs/2010-nba-eastern-conference-first-round-heat-vs-celtics.html,Boston Celtics,Miami Heat,4-1
+Eastern Conference First Round,Cleveland Cavaliers over Chicago Bulls (4-1),/playoffs/2010-nba-eastern-conference-first-round-bulls-vs-cavaliers.html,Cleveland Cavaliers,Chicago Bulls,4-1
+Eastern Conference First Round,Orlando Magic over Charlotte Bobcats (4-0),/playoffs/2010-nba-eastern-conference-first-round-bobcats-vs-magic.html,Orlando Magic,Charlotte Bobcats,4-0
+Western Conference First Round,Los Angeles Lakers over Oklahoma City Thunder (4-2),/playoffs/2010-nba-western-conference-first-round-thunder-vs-lakers.html,Los Angeles Lakers,Oklahoma City Thunder,4-2
+Western Conference First Round,Phoenix Suns over Portland Trail Blazers (4-2),/playoffs/2010-nba-western-conference-first-round-trail-blazers-vs-suns.html,Phoenix Suns,Portland Trail Blazers,4-2
+Western Conference First Round,San Antonio Spurs over Dallas Mavericks (4-2),/playoffs/2010-nba-western-conference-first-round-spurs-vs-mavericks.html,San Antonio Spurs,Dallas Mavericks,4-2
+Western Conference First Round,Utah Jazz over Denver Nuggets (4-2),/playoffs/2010-nba-western-conference-first-round-jazz-vs-nuggets.html,Utah Jazz,Denver Nuggets,4-2
