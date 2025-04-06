@@ -116,21 +116,67 @@ def prepare_training_data(season_data):
         return None
     return pd.concat(training_data, ignore_index=True)
 
+def simulate_playin(model, top_10_teams, team_stats, conference, feature_cols):
+    bracket = []
+    # 7 vs 8
+    team_7 = top_10_teams[6]
+    team_8 = top_10_teams[7]
+    team_7_stats = team_stats[team_stats['team'] == team_7].add_prefix('winner_').reset_index(drop=True)
+    team_8_stats = team_stats[team_stats['team'] == team_8].add_prefix('loser_').reset_index(drop=True)
+    matchup_data = pd.concat([team_7_stats, team_8_stats], axis=1)
+    features = matchup_data[feature_cols]
+    pred = model.predict(features)
+    seed_7 = team_7 if pred[0] == 1 else team_8
+    loser_7v8 = team_8 if pred[0] == 1 else team_7
+    bracket.append({'round': f"{conference} Play-In 7v8", 'matchup': f"{team_7} vs {team_8}", 'winner': seed_7})
+
+    # 9 vs 10
+    team_9 = top_10_teams[8]
+    team_10 = top_10_teams[9]
+    team_9_stats = team_stats[team_stats['team'] == team_9].add_prefix('winner_').reset_index(drop=True)
+    team_10_stats = team_stats[team_stats['team'] == team_10].add_prefix('loser_').reset_index(drop=True)
+    matchup_data = pd.concat([team_9_stats, team_10_stats], axis=1)
+    features = matchup_data[feature_cols]
+    pred = model.predict(features)
+    winner_9v10 = team_9 if pred[0] == 1 else team_10
+    bracket.append({'round': f"{conference} Play-In 9v10", 'matchup': f"{team_9} vs {team_10}", 'winner': winner_9v10})
+
+    # Loser(7v8) vs Winner(9v10)
+    loser_stats = team_stats[team_stats['team'] == loser_7v8].add_prefix('winner_').reset_index(drop=True)
+    winner_stats = team_stats[team_stats['team'] == winner_9v10].add_prefix('loser_').reset_index(drop=True)
+    matchup_data = pd.concat([loser_stats, winner_stats], axis=1)
+    features = matchup_data[feature_cols]
+    pred = model.predict(features)
+    seed_8 = loser_7v8 if pred[0] == 1 else winner_9v10
+    bracket.append({'round': f"{conference} Play-In Final", 'matchup': f"{loser_7v8} vs {winner_9v10}", 'winner': seed_8})
+
+    return seed_7, seed_8, bracket
+
 def predict_bracket(season_data, model, feature_cols):
     team_stats = merge_team_stats(season_data)
     if team_stats is None:
         print("Missing stats data for prediction")
         return None
 
-    east_teams = team_stats[team_stats['conference'] == 'Eastern'].sort_values('wins', ascending=False).head(8)
-    west_teams = team_stats[team_stats['conference'] == 'Western'].sort_values('wins', ascending=False).head(8)
+    east_teams = team_stats[team_stats['conference'] == 'Eastern'].sort_values('wins', ascending=False).head(10)
+    west_teams = team_stats[team_stats['conference'] == 'Western'].sort_values('wins', ascending=False).head(10)
     
-    print(f"Eastern Conference Top 8: {east_teams['team'].tolist()}")
-    print(f"Western Conference Top 8: {west_teams['team'].tolist()}")
+    print(f"Eastern Conference Top 10: {east_teams['team'].tolist()}")
+    print(f"Western Conference Top 10: {west_teams['team'].tolist()}")
+
+    # Simulate Play-In
+    east_seed_7, east_seed_8, east_playin_bracket = simulate_playin(model, east_teams['team'].tolist(), team_stats, "Eastern", feature_cols)
+    west_seed_7, west_seed_8, west_playin_bracket = simulate_playin(model, west_teams['team'].tolist(), team_stats, "Western", feature_cols)
+
+    # Top 6 + Play-In winners
+    east_playoff_teams = east_teams.iloc[:6]['team'].tolist() + [east_seed_7, east_seed_8]
+    west_playoff_teams = west_teams.iloc[:6]['team'].tolist() + [west_seed_7, west_seed_8]
+    print(f"Eastern Playoff Teams: {east_playoff_teams}")
+    print(f"Western Playoff Teams: {west_playoff_teams}")
 
     def simulate_conference(teams, conference_name):
         seeds = [0, 7, 1, 6, 2, 5, 3, 4]
-        current_teams = [teams.iloc[i]['team'] for i in seeds]
+        current_teams = [teams[i] for i in seeds]
         bracket = []
         rounds = [f"{conference_name} First Round", f"{conference_name} Semifinals", f"{conference_name} Finals"]
 
@@ -154,8 +200,8 @@ def predict_bracket(season_data, model, feature_cols):
                 break
         return bracket, current_teams[0] if current_teams else None
 
-    east_bracket, east_winner = simulate_conference(east_teams, "Eastern")
-    west_bracket, west_winner = simulate_conference(west_teams, "Western")
+    east_bracket, east_winner = simulate_conference(east_playoff_teams, "Eastern")
+    west_bracket, west_winner = simulate_conference(west_playoff_teams, "Western")
 
     finals_bracket = []
     if east_winner and west_winner:
@@ -168,7 +214,7 @@ def predict_bracket(season_data, model, feature_cols):
         finals_winner = east_winner if pred[0] == 1 else west_winner
         finals_bracket.append({'round': 'NBA Finals', 'matchup': f"{east_winner} vs {west_winner}", 'winner': finals_winner})
 
-    full_bracket = east_bracket + west_bracket + finals_bracket
+    full_bracket = east_playin_bracket + west_playin_bracket + east_bracket + west_bracket + finals_bracket
     return pd.DataFrame(full_bracket)
 
 def calculate_bracket_accuracy(predicted_bracket, actual_bracket):
@@ -178,16 +224,26 @@ def calculate_bracket_accuracy(predicted_bracket, actual_bracket):
     predicted_bracket['round'] = predicted_bracket['round'].str.replace('Eastern ', '').str.replace('Western ', '')
     actual_bracket.loc[:, 'round'] = actual_bracket['round'].str.replace('Eastern Conference ', '').str.replace('Western Conference ', '')
     
-    merged = predicted_bracket.merge(actual_bracket[['round', 'winner', 'loser']], 
-                                    left_on=['round', 'winner'], 
-                                    right_on=['round', 'winner'], 
-                                    how='left', 
-                                    suffixes=('_pred', '_act'))
+    # Handle Play-In separately if actual data includes it (post-2021)
+    playin_preds = predicted_bracket[predicted_bracket['round'].str.contains('Play-In')]
+    playoff_preds = predicted_bracket[~predicted_bracket['round'].str.contains('Play-In')]
     
-    correct = merged['loser'].notna().sum()
-    total = len(predicted_bracket)
-    accuracy = correct / total if total > 0 else 0.0
-    print(f"Correct predictions: {correct}/{total}")
+    # For simplicity, assume actual_bracket only has playoff series; adjust if Play-In data is added
+    merged = playoff_preds.merge(actual_bracket[['round', 'winner', 'loser']], 
+                                 left_on=['round', 'winner'], 
+                                 right_on=['round', 'winner'], 
+                                 how='left', 
+                                 suffixes=('_pred', '_act'))
+    
+    correct_playoff = merged['loser'].notna().sum()
+    total_playoff = len(playoff_preds)
+    total_playin = len(playin_preds)  # Assume all Play-In predictions are evaluated separately
+    total = total_playoff + total_playin
+    
+    # If actual Play-In data exists, add logic here to compare
+    print(f"Correct playoff predictions: {correct_playoff}/{total_playoff}")
+    print(f"Total predictions (including Play-In): {total}")
+    accuracy = correct_playoff / total if total > 0 else 0.0  # Update when Play-In actuals are available
     return accuracy
 
 if __name__ == "__main__":
@@ -215,7 +271,7 @@ if __name__ == "__main__":
 
         feature_cols = features.columns.tolist()
         X_train, X_test, y_train, y_test = train_test_split(features, target, test_size=0.2, random_state=42)
-        model = model = RandomForestClassifier(n_estimators=100, max_depth=10, min_samples_split=5, random_state=42)
+        model = RandomForestClassifier(n_estimators=100, max_depth=10, min_samples_split=5, random_state=42)
         model.fit(X_train, y_train)
         y_pred = model.predict(X_test)
         print(f"Training accuracy (validation split): {accuracy_score(y_test, y_pred)}")
