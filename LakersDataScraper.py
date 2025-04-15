@@ -236,7 +236,7 @@ os.makedirs("nba_data/standings", exist_ok=True)
 os.makedirs("nba_data/standings", exist_ok=True)
 
 # Scrape data for seasons 2000 to 2024
-for season in range(2000, 2025):
+for season in range(2000, 2026):
     url = BASE_URL.format(season)
     print(f"Scraping data for {season} season...")
 

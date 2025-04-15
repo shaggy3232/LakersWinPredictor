@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score
 
 DATA_DIR = "nba_data"
 TRAIN_SEASONS = range(2000, 2020)
-TEST_SEASONS = range(2020, 2025)
+TEST_SEASONS = range(2020, 2026)
 
 def normalize_team_name(name):
     name = name.lower().replace('*', '').strip()
@@ -271,7 +271,14 @@ if __name__ == "__main__":
 
         feature_cols = features.columns.tolist()
         X_train, X_test, y_train, y_test = train_test_split(features, target, test_size=0.2, random_state=42)
-        model = RandomForestClassifier(n_estimators=100, max_depth=10, min_samples_split=5, random_state=42)
+        model = RandomForestClassifier(
+                n_estimators=300,         # More trees = more learning
+                max_depth=None,           # Allow deeper trees to capture complex patterns
+                min_samples_split=2,      # Let it split more aggressively
+                min_samples_leaf=1,       # Allows rare upset conditions to influence splits
+                class_weight='balanced',  # Treat upsets with more importance
+                random_state=42
+            )
         model.fit(X_train, y_train)
         y_pred = model.predict(X_test)
         print(f"Training accuracy (validation split): {accuracy_score(y_test, y_pred)}")
@@ -288,8 +295,12 @@ if __name__ == "__main__":
                 print(f"Predicted bracket for {season}:\n", predicted_bracket)
                 predicted_bracket.to_csv(f"{DATA_DIR}/merged/{season}_predicted_bracket.csv", index=False)
 
-                actual_bracket = season_data['playoff'][['round', 'winner', 'loser', 'series_result']]
-                print(f"Actual bracket for {season}:\n", actual_bracket)
+               
+                if 'playoff' in season_data:
+                    actual_bracket = season_data['playoff'][['round', 'winner', 'loser', 'series_result']]
+                else:
+                    actual_bracket = None
+                    print("No actual playoff data available for evaluation.")
 
                 accuracy = calculate_bracket_accuracy(predicted_bracket, actual_bracket)
                 print(f"Bracket prediction accuracy for {season}: {accuracy:.2%}")
