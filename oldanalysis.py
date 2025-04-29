@@ -66,10 +66,11 @@ def prepare_training_data(season_data):
     return pd.concat(training_data, ignore_index=True) if training_data else None
 
 def predict_bracket(season_data, model):
+    import pandas as pd
+
     # Build team stats with consistent column names
     team_stats = season_data['per_poss'].copy()
     if 'per_game' in season_data:
-        # Match suffixes from training
         team_stats = team_stats.merge(season_data['per_game'][['team', 'pts']], on='team', how='left', suffixes=('', '_per_game'))
     if 'advanced' in season_data:
         team_stats = team_stats.merge(season_data['advanced'][['team', 'off_rtg', 'def_rtg']], on='team', how='left')
@@ -81,39 +82,39 @@ def predict_bracket(season_data, model):
             shooting_cols.append('fg3a_per_fga_pct')
         team_stats = team_stats.merge(season_data['shooting'][shooting_cols], on='team', how='left')
 
-    # Debug: Check columns before prediction
-    print(f"Team stats columns for prediction: {team_stats.columns.tolist()}")
+    # Sort by offensive rating to simulate seeding
+    teams = team_stats.sort_values('off_rtg', ascending=False).head(8).reset_index(drop=True)
+    seeds = teams['team'].tolist()
 
-    teams = team_stats.sort_values('off_rtg', ascending=False).head(16)
-    current_teams = teams['team'].tolist()
     bracket = []
 
-    rounds = ['First Round', 'Semifinals', 'Conference Finals', 'Finals']
-    for round_name in rounds:
-        next_round_teams = []
-        for i in range(0, len(current_teams), 2):
-            if i + 1 < len(current_teams):
-                team1 = current_teams[i]
-                team2 = current_teams[i + 1]
+    def simulate_matchup(team1, team2):
+        t1_stats = team_stats[team_stats['team'] == team1].add_prefix('winner_').reset_index(drop=True)
+        t2_stats = team_stats[team_stats['team'] == team2].add_prefix('loser_').reset_index(drop=True)
+        matchup_data = pd.concat([t1_stats, t2_stats], axis=1)
+        features = matchup_data.drop(columns=['winner_team', 'loser_team'])
+        pred = model.predict(features)
+        return team1 if pred[0] == 1 else team2
 
-                team1_stats = team_stats[team_stats['team'] == team1].add_prefix('winner_').reset_index(drop=True)
-                team2_stats = team_stats[team_stats['team'] == team2].add_prefix('loser_').reset_index(drop=True)
-                matchup_data = pd.concat([team1_stats, team2_stats], axis=1)
+    # First Round (seeded 1 vs 8, 4 vs 5, 3 vs 6, 2 vs 7)
+    matchups = [(0, 7), (3, 4), (2, 5), (1, 6)]
+    quarter_winners = []
+    for i, j in matchups:
+        winner = simulate_matchup(seeds[i], seeds[j])
+        bracket.append({'round': 'First Round', 'matchup': f"{seeds[i]} vs {seeds[j]}", 'winner': winner})
+        quarter_winners.append(winner)
 
-                # Ensure features match training
-                features = matchup_data.drop(columns=['winner_team', 'loser_team'])
-                
-                # Debug: Check feature names before prediction
-                print(f"Features for {team1} vs {team2}: {features.columns.tolist()}")
+    # Semifinals: (winner of 1-8 vs winner of 4-5), (winner of 3-6 vs winner of 2-7)
+    semi_matchups = [(0, 1), (2, 3)]
+    semi_winners = []
+    for i, j in semi_matchups:
+        winner = simulate_matchup(quarter_winners[i], quarter_winners[j])
+        bracket.append({'round': 'Semifinals', 'matchup': f"{quarter_winners[i]} vs {quarter_winners[j]}", 'winner': winner})
+        semi_winners.append(winner)
 
-                pred = model.predict(features)
-                winner = team1 if pred[0] == 1 else team2
-                bracket.append({'round': round_name, 'matchup': f"{team1} vs {team2}", 'winner': winner})
-                next_round_teams.append(winner)
-
-        current_teams = next_round_teams
-        if len(current_teams) <= 1:
-            break
+    # Conference Finals
+    final_winner = simulate_matchup(semi_winners[0], semi_winners[1])
+    bracket.append({'round': 'Conference Finals', 'matchup': f"{semi_winners[0]} vs {semi_winners[1]}", 'winner': final_winner})
 
     return pd.DataFrame(bracket)
 

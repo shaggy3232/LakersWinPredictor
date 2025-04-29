@@ -115,7 +115,6 @@ def prepare_training_data(season_data):
         print("No training data generated")
         return None
     return pd.concat(training_data, ignore_index=True)
-
 def simulate_playin(model, top_10_teams, team_stats, conference, feature_cols):
     bracket = []
     # 7 vs 8
@@ -160,7 +159,7 @@ def predict_bracket(season_data, model, feature_cols):
 
     east_teams = team_stats[team_stats['conference'] == 'Eastern'].sort_values('wins', ascending=False).head(10)
     west_teams = team_stats[team_stats['conference'] == 'Western'].sort_values('wins', ascending=False).head(10)
-    
+
     print(f"Eastern Conference Top 10: {east_teams['team'].tolist()}")
     print(f"Western Conference Top 10: {west_teams['team'].tolist()}")
 
@@ -175,30 +174,52 @@ def predict_bracket(season_data, model, feature_cols):
     print(f"Western Playoff Teams: {west_playoff_teams}")
 
     def simulate_conference(teams, conference_name):
-        seeds = [0, 7, 1, 6, 2, 5, 3, 4]
-        current_teams = [teams[i] for i in seeds]
+        seeds = [0, 7, 1, 6, 2, 5, 3, 4]  # 1v8, 2v7, 3v6, 4v5
+        seeded_teams = [teams[i] for i in seeds]
         bracket = []
-        rounds = [f"{conference_name} First Round", f"{conference_name} Semifinals", f"{conference_name} Finals"]
 
-        for round_name in rounds:
-            print(f"Simulating {round_name} with teams: {current_teams}")
-            next_round_teams = []
-            for i in range(0, len(current_teams), 2):
-                if i + 1 < len(current_teams):
-                    team1 = current_teams[i]
-                    team2 = current_teams[i + 1]
-                    team1_stats = team_stats[team_stats['team'] == team1].add_prefix('winner_').reset_index(drop=True)
-                    team2_stats = team_stats[team_stats['team'] == team2].add_prefix('loser_').reset_index(drop=True)
-                    matchup_data = pd.concat([team1_stats, team2_stats], axis=1)
-                    features = matchup_data[feature_cols]
-                    pred = model.predict(features)
-                    winner = team1 if pred[0] == 1 else team2
-                    bracket.append({'round': round_name, 'matchup': f"{team1} vs {team2}", 'winner': winner})
-                    next_round_teams.append(winner)
-            current_teams = next_round_teams
-            if len(current_teams) <= 1:
-                break
-        return bracket, current_teams[0] if current_teams else None
+        # First Round
+        first_matchups = [(0, 1), (6, 7), (4, 5), (2, 3)]  # indices in seeded_teams
+        first_round_winners = []
+        for i, j in first_matchups:
+            team1 = seeded_teams[i]
+            team2 = seeded_teams[j]
+            team1_stats = team_stats[team_stats['team'] == team1].add_prefix('winner_').reset_index(drop=True)
+            team2_stats = team_stats[team_stats['team'] == team2].add_prefix('loser_').reset_index(drop=True)
+            matchup_data = pd.concat([team1_stats, team2_stats], axis=1)
+            features = matchup_data[feature_cols]
+            pred = model.predict(features)
+            winner = team1 if pred[0] == 1 else team2
+            bracket.append({'round': f"{conference_name} First Round", 'matchup': f"{team1} vs {team2}", 'winner': winner})
+            first_round_winners.append(winner)
+
+        # Semifinals: (1v8 winner vs 4v5 winner), (2v7 winner vs 3v6 winner)
+        semi_matchups = [(0, 1), (2, 3)]
+        semifinal_winners = []
+        for i, j in semi_matchups:
+            team1 = first_round_winners[i]
+            team2 = first_round_winners[j]
+            team1_stats = team_stats[team_stats['team'] == team1].add_prefix('winner_').reset_index(drop=True)
+            team2_stats = team_stats[team_stats['team'] == team2].add_prefix('loser_').reset_index(drop=True)
+            matchup_data = pd.concat([team1_stats, team2_stats], axis=1)
+            features = matchup_data[feature_cols]
+            pred = model.predict(features)
+            winner = team1 if pred[0] == 1 else team2
+            bracket.append({'round': f"{conference_name} Semifinals", 'matchup': f"{team1} vs {team2}", 'winner': winner})
+            semifinal_winners.append(winner)
+
+        # Conference Finals
+        team1 = semifinal_winners[0]
+        team2 = semifinal_winners[1]
+        team1_stats = team_stats[team_stats['team'] == team1].add_prefix('winner_').reset_index(drop=True)
+        team2_stats = team_stats[team_stats['team'] == team2].add_prefix('loser_').reset_index(drop=True)
+        matchup_data = pd.concat([team1_stats, team2_stats], axis=1)
+        features = matchup_data[feature_cols]
+        pred = model.predict(features)
+        winner = team1 if pred[0] == 1 else team2
+        bracket.append({'round': f"{conference_name} Finals", 'matchup': f"{team1} vs {team2}", 'winner': winner})
+
+        return bracket, winner
 
     east_bracket, east_winner = simulate_conference(east_playoff_teams, "Eastern")
     west_bracket, west_winner = simulate_conference(west_playoff_teams, "Western")
@@ -216,6 +237,7 @@ def predict_bracket(season_data, model, feature_cols):
 
     full_bracket = east_playin_bracket + west_playin_bracket + east_bracket + west_bracket + finals_bracket
     return pd.DataFrame(full_bracket)
+
 
 def calculate_bracket_accuracy(predicted_bracket, actual_bracket):
     if predicted_bracket.empty or actual_bracket.empty:
